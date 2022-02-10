@@ -19,6 +19,13 @@ body {
 p {
   margin: 1rem;
 }
+hr {
+  border-top: 3px solid red;
+  color: #123455;
+
+  width: 60%;
+  margin: auto;
+}
 
 .container-fluid {
   width: 80%;

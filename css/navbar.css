@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  font-size: 2rem;
+  height: 10vh;
+}
+
+.nav-left {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+.hero-heading {
+  margin-top: 10vh;
+}
+
+.main {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.main-container {
+  display: flex;
+  
+}
+.main-heading{
+color: #242B2E;
+font-weight: 900;
+}
+.main-subcontent {
+  font-size: 1.4rem;
+  padding: 1.5rem 3rem;
+  line-height: 2rem;
+  color: #535353;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (min-width: 750px) {
+    .main-subcontent {
+        width: 50%;
+
+}

@@ -1,6 +1,8 @@
+@import "./var.css";
+
 .side-navbar {
   width: 20%;
-  background-color: lightblue;
+  background-color: var(--color-sucess);
 }
 .side-navbar li a {
   display: inline-block;
@@ -14,5 +16,5 @@
   display: flex;
   flex-direction: column;
   width: 80%;
-  background-color: red;
+  background-color: var(--color-fancy);
 }

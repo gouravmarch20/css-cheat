@@ -1,0 +1,12 @@
+:root {
+  --color-sucess: #4dd637;
+  --color-info: #03c6c7;
+  --color-wait: #f4be2c;
+  --color-space: #03203c;
+  --color-danger: #d82e2f;
+  --color-fancy: #e07c24;
+  --color-text-heading: #020202;
+  --color-text-heading-mini: #0b0b0b;
+  --color-text-content: #282828;
+  --color-text-subheading: #9a9a9a;
+}

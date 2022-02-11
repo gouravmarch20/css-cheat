@@ -10,3 +10,45 @@
   --color-text-content: #282828;
   --color-text-subheading: #9a9a9a;
 }
+.bg-sucess {
+  background-color: var(--color-sucess);
+}
+.bg-info {
+  background-color: var(--color-info);
+}
+.bg-wait {
+  background-color: var(--color-wait);
+}
+.bg-space {
+  background-color: var(--color-space);
+}
+.bg-danger {
+  background-color: var(--color-danger);
+}
+.bg-fancy {
+  background-color: var(--color-fancy);
+}
+/* text */
+
+.text-info {
+  color: var(--color-info);
+}
+.text-sucess {
+  color: var(--color-sucess);
+}
+
+.text-wait {
+  color: var(--color-wait);
+}
+.text-space {
+  color: var(--color-space);
+}
+.text-fancy {
+  -color: var(--color-fancy);
+}
+.text-info {
+  color: var(--color-info);
+}
+.p-1{
+  padding: 1rem;
+}

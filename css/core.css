@@ -86,3 +86,6 @@ button:hover,
 button:focus {
   background-color: #f082ac;
 }
+p-1 {
+  padding: 1rem;
+}

@@ -8,13 +8,16 @@
   display: inline-block;
   padding: 1rem;
   font-size: 1.5rem;
+  box-shadow: 0 10px 10px rgba(235, 25, 110, 1) !important;
 }
 .docs-area {
   display: flex;
 }
 .component-area {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 70%;
   background-color: var(--color-fancy);
+  background-color: #faf9f6;
 }

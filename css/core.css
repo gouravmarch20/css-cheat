@@ -89,3 +89,20 @@ button:focus {
 p-1 {
   padding: 1rem;
 }
+/* .example-container {
+  border: 1px solid blue;
+  margin: 1rem;
+} */
+img,
+video,
+iframe {
+  /* must */
+  max-inline-size: 100%;
+  block-size: auto;
+
+  object-fit: contain;
+  object-fit: cover;
+  /* vary */
+  object-position: top center;
+  aspect-ratio: 2/1;
+}

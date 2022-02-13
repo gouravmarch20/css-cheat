@@ -1,7 +1,8 @@
 @import "./css/var.css";
 @import "./css/core.css";
-@import "./css/navbar.css";
 @import "./css/docs.css";
+@import "./css/button.css";
 @import "./css/card.css";
+@import "./css/navbar.css";
 @import "./css/toast.css";
 @import "./css/image.css";

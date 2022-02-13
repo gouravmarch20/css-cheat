@@ -30,19 +30,16 @@
   z-index: 999;
 }
 .component-area {
-
   margin-left: 25rem;
   margin-top: 10vh;
 }
 @media (max-width: 800px) {
   .component-area {
-  
     margin-left: 10rem;
   }
 }
 @media (max-width: 1200px) {
   .component-area {
-
     margin-left: 15rem;
   }
 }

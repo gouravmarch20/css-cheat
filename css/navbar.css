@@ -1,7 +1,7 @@
-body{
+
+.intro-page{
   background-color: var(--color-fancy);
 }
-
 .nav {
   display: flex;
   font-size: 2rem;

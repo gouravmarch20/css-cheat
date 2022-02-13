@@ -106,3 +106,10 @@ iframe {
   object-position: top center;
   aspect-ratio: 2/1;
 }
+/*  */
+.component-example {
+  margin: 1rem;
+  border: dotted 1px blue;
+
+  box-shadow: 4px 3px 3px rgba(25, 34, 29, 0.4);
+}

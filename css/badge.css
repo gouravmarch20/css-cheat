@@ -1,0 +1,39 @@
+.badge {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.badge-status {
+  position: absolute;
+
+  bottom: 0.1rem;
+
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 1rem;
+}
+.badge-online {
+  background-color: var(--color-sucess);
+}
+.badge-waving {
+  background-color: var(--color-danger);
+}
+.badge-offline {
+  background-color: var(--color-space);
+}
+.badge-icon {
+  font-size: small;
+  font-weight: bold;
+  position: absolute;
+  padding: 0.1rem 0.3rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  left: 1.6rem;
+}
+.badge-sucess {
+  background-color: var(--color-sucess);
+}
+.badge-danger {
+  background-color: var(--color-danger);
+}

@@ -106,10 +106,25 @@ iframe {
   object-position: top center;
   aspect-ratio: 2/1;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 , p , a , button, i{
+  margin: 1rem;
+}
 /*  */
 .component-example {
   margin: 1rem;
   border: dotted 1px blue;
 
   box-shadow: 4px 3px 3px rgba(25, 34, 29, 0.4);
+}
+.divider {
+  height: 2px;
+  width: 80%;
+  margin: 2rem auto;
+
+  background-color: var(--color-text-content);
 }

@@ -82,9 +82,9 @@
             A alert for display information message
           </div>
           <!-- </section> -->
-
-          <hr />
         </div>
+        <div class="divider"></div>
+
         <div id="Avatar">
           <div class="component-intro">
             <h2>Avatar</h2>
@@ -130,6 +130,8 @@
             </figure>
           </div>
         </div>
+        <div class="divider"></div>
+
         <div id="Badge">
           <h2>Avatar telling user status</h2>
           <div class="component-example">
@@ -155,83 +157,91 @@
             <span class="badge-icon badge-danger">300</span>
           </div>
         </div>
+
+        <div class="divider"></div>
         <div id="Button">
           <div class="component-example">
-
             <button class="btn btn-success">Primary</button>
             <button class="btn btn-outline">Link</button>
-            <button class="btn btn-success"><i class="fas fa-shopping-cart"></i></button>
+            <button class="btn btn-success">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
             <button class="btn-floating">+</button>
           </div>
         </div>
+        <div class="divider"></div>
 
-            <div class="card">
-              <div class="card-header">
-                <div class="card-title">Card Title</div>
-                <div class="img title"></div>
-              </div>
-              <div class="card-body">
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Obcaecati omnis natus assumenda. Quos aspernatur ut cupiditate
-                  molestiae voluptatem illo sed.
-                </p>
-              </div>
-              <div class="card__footer">
-                <button type="submit">Sumit</button>
-                <button type="submit">Clear</button>
-              </div>
+        <div class="Card">
+          <h2>Card with Text only</h2>
+          <div class="card text-card">
+            <h5 class="card-title">Heading</h5>
+            <p class="card-subtitle">Sub-Heading</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur. Dolorum atque aspernatur
+              in soluta beatae debitis ad illo sed id velit?
+            </p>
+          </div>
+          <div class="divider"></div>
+          <h2>Card with Badge</h2>
+          <div class="card card-relative">
+            <div class="">
+              <img class="card-image" src="./assets/card/food.jpg" alt="" />
             </div>
-            <div class="card card-ecommerce">
-              <div class="card-header-img">
-                <img src="https://picsum.photos/300/200?random=2" />
+            <div class="card-badge">TRENDING</div>
+
+            <div class="card-body">
+              <h5 class="card-title">Pomegranate</h5>
+              <p class="card-text">Fruit</p>
+              <div class="card-price">
+                <span class="price-after-discount">₹149</span>
               </div>
-              <div class="card-body">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                  repellendus, veniam quas accusantium doloremque perferendis.
-                </p>
-              </div>
-              <div class="card-footer">
-                <li>
-                  <a href="">
-                    <i class="fab fa-instagram fa-2x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <i class="fab fa-twitter fa-2x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href=""><i class="fab fa-whatsapp fa-2x"></i></a>
-                </li>
-              </div>
-            </div>
-            <div class="card-comp">
-              <img
-                class="img-comp"
-                src="https://picsum.photos/300/200?random=2"
-                alt="Food Image"
-              />
-              <div class="text-comp">
-                <div class="header-comp">
-                  <div class="header">Food image</div>
-                  <div class="sub-header">₹ 529</div>
-                </div>
-                <div class="detail-comp">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-                  perspiciatis nostrum nobis incidunt eligendi!
-                </div>
-              </div>
-              <div class="icons-comp">
-                <i class="fa fa-heart icon"></i>
-                <i class="fa fa-share-alt icon"></i>
-                <i class="fa fa-ellipsis-v icon"></i>
-              </div>
+
+              <button class="btn-outline">ADD TO CART</button>
             </div>
           </div>
+          <div class="divider"></div>
+
+          <h2>Card Dismiss</h2>
+          <div class="card-disabled">
+            <div class="text-overlay">Out Of Stock</div>
+            <img
+              class="card-image"
+              src="/assets/card/pepsi.jpg"
+              alt="Food Image"
+            />
+            <div class="card-subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
+              nihil tempora alias?
+            </div>
+            <div class="card-footer">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <i class="fa-solid fa-credit-card fa-2x"></i>
+            </div>
+          </div>
+          <h2>Card with shadow</h2>
+          <div class="card-shadow text-card">
+            <h5 class="card-title">Heading</h5>
+            <p class="card-subtitle">Sub-Heading</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur. Dolorum atque aspernatur
+              in soluta beatae debitis ad illo sed id velit?
+            </p>
+          </div>
+          <h2>Horizontal card</h2>
+          <div class="card-horizontal">
+            <div class="">
+              <img class="horizontal-img" src="/assets/card/itc.jpg" />
+            </div>
+            <div>
+              <div class="card-title">ITC</div>
+              <div class="card-subtitle">₹ 229</div>
+            </div>
+            <i class="fa fa-share-alt icon"></i>
+          </div>
         </div>
+
+        <div class="divider"></div>
+
         <!-- Form -->
         <div id="Form">
           <div class="component-into">
@@ -253,7 +263,6 @@
               id=""
               placeholder="Enter your password"
             />
-            <hr />
 
             <label>Username </label>
 
@@ -288,6 +297,8 @@
             <label for="age2">31 - 60</label><br />
           </div>
         </div>
+        <div class="divider"></div>
+
         <!-- Image -->
         <div id="Image">
           <div class="component-intro">
@@ -327,7 +338,7 @@
               <p class="toast_txt">Something went wrong!</p>
               <button><i class="fas fa-times"></i></button>
             </div>
->>>>>>> fabfa32809fc96a56ca2fd0677c571539e243d63
+            >>>>>>> fabfa32809fc96a56ca2fd0677c571539e243d63
           </div>
         </div>
         <!-- end components -->

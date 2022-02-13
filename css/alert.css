@@ -1,11 +1,11 @@
-.alert{
-    border-radius: 0.5rem;
+.alert {
+  border-radius: 0.5rem;
 
-    margin: .5rem;
-    padding: 1.3rem 1rem;
-    text-align: center;
-    font-weight: bold;
+  margin: 0.5rem;
+  padding: 1.3rem 1rem;
+  text-align: center;
+  font-weight: bold;
 }
-.alert-danger{
-    background-color: var(--color-danger);
+.alert-danger {
+  background-color: var(--color-danger);
 }

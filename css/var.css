@@ -5,7 +5,7 @@
   --color-space: #03203c;
   --color-danger: #d82e2f;
   --color-fancy: #e07c24;
-  --color-blue: #3944F7;
+  --color-blue: #3944f7;
   --color-neon: #39ff14;
 
   --color-text-heading: #020202;
@@ -52,6 +52,6 @@
 .text-info {
   color: var(--color-info);
 }
-.p-1{
+.p-1 {
   padding: 1rem;
 }

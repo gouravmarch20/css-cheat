@@ -1,0 +1,22 @@
+.toast {
+  background-color: var(--primary-color-cl);
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  color: black;
+  width: 70%;
+  font-weight: 500;
+  box-shadow: 5px 5px 8px #757474;
+}
+
+.hide-toast {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.hide-toast:hover {
+  color: #1d547e;
+}

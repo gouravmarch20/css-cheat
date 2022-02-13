@@ -18,10 +18,33 @@
     />
   </head>
   <body>
+    <nav class="nav nav-fixed" id="navbar">
+      <div class="nav-left">
+        <li><a href="./index.html" class="nav-link">Home</a></li>
+        <li><a href="./docs.html" class="nav-link">Documentation</a></li>
+      </div>
+      <div class="nav-right">
+        <li>
+          <a href="" class="nav-link"
+            ><i class="fa-brands fa-github fa-lg"></i
+          ></a>
+        </li>
+        <li>
+          <a href="" class="nav-link"
+            ><i class="fa-brands fa-twitter fa-lg"></i
+          ></a>
+        </li>
+        <li>
+          <a href="" class="nav-link"
+            ><i class="fa-brands fa-linkedin-in fa-lg"></i
+          ></a>
+        </li>
+      </div>
+    </nav>
+
     <div class="docs-area">
       <!-- side navbar -->
       <aside class="side-navbar">
-        <h2 class="text-md">Components</h2>
         <ul>
           <li><a href="#Alert">Alert</a></li>
 
@@ -33,13 +56,13 @@
           <li><a href="#Image">Image</a></li>
           <li><a href="#Modal">Modal</a></li>
           <li><a href="">Navigation</a></li>
-          <li><a href="">Toast</a></li>
+          <li><a href="#Toast">Toast</a></li>
           <li><a href="">Typography</a></li>
         </ul>
       </aside>
       <!-- end side navbar -->
       <!-- components -->
-      <!-- <section class="components"> -->
+
       <section class="component-area">
         <h1 class="text-center text-xlg">Cheet Css checkbox</h1>
         <div id="Alert">
@@ -63,16 +86,75 @@
           <hr />
         </div>
         <div id="Avatar">
-          <div class="component-intro"></div>
+          <div class="component-intro">
+            <h2>Avatar</h2>
+            <p class="docs-body-para">
+              An image used as a user's profile picture, usually in a circular
+              shape.
+            </p>
+          </div>
+          <div class="">
+            <h3>Standard Avatar</h3>
+            <figure class="component-example avatar-flex">
+              <img
+                class="avatar avatar-lg"
+                src="./assets/avatar/avatar-one.png"
+                alt="avatar-profile-1"
+              />
+              <img
+                class="avatar avatar-md"
+                src="./assets/avatar/avatar-one.png"
+                alt="avatar-profile-1"
+              />
+              <img
+                class="avatar avatar-sm"
+                src="./assets/avatar/avatar-one.png"
+                alt="avatar-profile-1"
+              />
+              <img
+                class="avatar avatar-xs"
+                src="./assets/avatar/avatar-one.png"
+                alt="avatar-profile-1"
+              />
+            </figure>
+          </div>
+
+          <div class="component-example">
+            <h2>Text Avatar</h2>
+            <!-- <figure class="avatar-text-center"> -->
+            <figure class="avatar-flex">
+              <figure class="avatar-text avatar-lg">G</figure>
+              <figure class="avatar-text avatar-md">S</figure>
+              <figure class="avatar-text avatar-sm">K</figure>
+              <figure class="avatar-text avatar-xs">A</figure>
+              <!-- </figure> -->
+            </figure>
+          </div>
         </div>
         <div id="Badge">
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-          <h3>zeron</h3>
+          <h2>Avatar telling user status</h2>
+          <div class="component-example">
+            <figure class="avatar-flex badge">
+              <figure class="avatar-text avatar-sm">
+                <span class="badge-status badge-online"></span>Su
+              </figure>
+
+              <figure class="avatar-text avatar-sm">
+                <span class="badge-status badge-offline"></span>Gk
+              </figure>
+
+              <!-- </figure> -->
+            </figure>
+          </div>
+          <h2>Badge on Icon</h2>
+          <div class="badge">
+            <i class="fab fa-whatsapp fa-3x" aria-hidden="true"></i>
+            <span class="badge-sucess badge-icon">300</span>
+          </div>
+          <div class="badge">
+            <i class="fab fa-instagram fa-3x" aria-hidden="true"></i>
+            <span class="badge-icon badge-danger">300</span>
+          </div>
         </div>
         <div id="Button">
           <h2>
@@ -87,6 +169,7 @@
             <button class="btn btn-info">Info</button>
             <button class="btn btn-dark">Dark</button>
           </div>
+<<<<<<< HEAD
           <hr />
           <div>
             <button class="btn btn-outline-primary">Primary</button>
@@ -105,9 +188,173 @@
             <button class="btn btn-outline-info">
               <i class="fas fa-bell"></i>
             </button>
+=======
+          <div class="example-container">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">Card Title</div>
+                <div class="img title"></div>
+              </div>
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Obcaecati omnis natus assumenda. Quos aspernatur ut cupiditate
+                  molestiae voluptatem illo sed.
+                </p>
+              </div>
+              <div class="card__footer">
+                <button type="submit">Sumit</button>
+                <button type="submit">Clear</button>
+              </div>
+            </div>
+            <div class="card card-ecommerce">
+              <div class="card-header-img">
+                <img src="https://picsum.photos/300/200?random=2" />
+              </div>
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                  repellendus, veniam quas accusantium doloremque perferendis.
+                </p>
+              </div>
+              <div class="card-footer">
+                <li>
+                  <a href="">
+                    <i class="fab fa-instagram fa-2x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-whatsapp fa-2x"></i></a>
+                </li>
+              </div>
+            </div>
+            <div class="card-comp">
+              <img
+                class="img-comp"
+                src="https://picsum.photos/300/200?random=2"
+                alt="Food Image"
+              />
+              <div class="text-comp">
+                <div class="header-comp">
+                  <div class="header">Food image</div>
+                  <div class="sub-header">₹ 529</div>
+                </div>
+                <div class="detail-comp">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+                  perspiciatis nostrum nobis incidunt eligendi!
+                </div>
+              </div>
+              <div class="icons-comp">
+                <i class="fa fa-heart icon"></i>
+                <i class="fa fa-share-alt icon"></i>
+                <i class="fa fa-ellipsis-v icon"></i>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- </section> -->
+        <!-- Form -->
+        <div id="Form">
+          <div class="component-into">
+            <h1>Form Components</h1>
+            <p>
+              This element have different types of input elements, such as: text
+              fields, checkboxes, radio buttons, submit buttons, etc.
+            </p>
+          </div>
+          <div class="component-example">
+            <label>Username </label>
+
+            <input type="email" name="" id="" placeholder="Enter your email" />
+            <label>Password </label>
+
+            <input
+              type="password"
+              name=""
+              id=""
+              placeholder="Enter your password"
+            />
+            <hr />
+
+            <label>Username </label>
+
+            <input type="email" name="" id="" placeholder="Enter your email" />
+            <label>Password </label>
+
+            <input
+              type="password"
+              name=""
+              id=""
+              placeholder="Enter your password"
+            />
+            <label for="">Enter TextArea</label>
+            <textarea rows="4" cols="50"> </textarea>
+            <label for="">Select your Date for birth</label>
+            <input
+              type="date"
+              name=""
+              id=""
+              placeholder="Enter your Birth Date"
+            />
+            <label for="">Select your Country</label>
+            <select required>
+              <option value="India">India</option>
+              <option value="Qutar">Qutar</option>
+              <option value="United States">United States</option>
+            </select>
+            <p>Please select your age:</p>
+            <input type="radio" id="age1" name="age" value="30" />
+            <label for="age1">0 - 30</label><br />
+            <input type="radio" id="age2" name="age" value="60" />
+            <label for="age2">31 - 60</label><br />
+          </div>
+        </div>
+        <!-- Image -->
+        <div id="Image">
+          <div class="component-intro">
+            <h2>
+              Here is two types of image on is rounded & on is square shape
+              image both of them is responsive image
+            </h2>
+          </div>
+          <div class="component-example">
+            <h2 class="">Responsive Image</h2>
+            <p>
+              Responsive images change their aspect ratio according to the
+              container it is contained in.
+            </p>
+
+            <img src="./assets/line-quote.jpg" alt="" class="img-fluid" />
+          </div>
+          <div>
+            <h2 class="">Rounded Image</h2>
+
+            <div class="round-img">
+              <img src="./assets/danvh.jpg" alt="" class="round-img" />
+            </div>
+          </div>
+          <div class="component-example"></div>
+        </div>
+        <!-- Toast -->
+
+        <div id="Toast">
+          <div class="component-intro"></div>
+          <div class="component-example">
+            <div class="toast alert alert-danger">
+              <p class="toast_txt">Something went wrong!</p>
+              <button><i class="fas fa-times"></i></button>
+            </div>
+            <div class="toast alert alert-in">
+              <p class="toast_txt">Something went wrong!</p>
+              <button><i class="fas fa-times"></i></button>
+            </div>
+>>>>>>> fabfa32809fc96a56ca2fd0677c571539e243d63
+          </div>
+        </div>
         <!-- end components -->
       </section>
     </div>

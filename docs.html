@@ -18,10 +18,33 @@
     />
   </head>
   <body>
+    <nav class="nav nav-fixed" id="navbar">
+      <div class="nav-left">
+        <li><a href="./index.html" class="nav-link">Home</a></li>
+        <li><a href="./docs.html" class="nav-link">Documentation</a></li>
+      </div>
+      <div class="nav-right">
+        <li>
+          <a href="" class="nav-link"
+            ><i class="fa-brands fa-github fa-lg"></i
+          ></a>
+        </li>
+        <li>
+          <a href="" class="nav-link"
+            ><i class="fa-brands fa-twitter fa-lg"></i
+          ></a>
+        </li>
+        <li>
+          <a href="" class="nav-link"
+            ><i class="fa-brands fa-linkedin-in fa-lg"></i
+          ></a>
+        </li>
+      </div>
+    </nav>
+
     <div class="docs-area">
       <!-- side navbar -->
       <aside class="side-navbar">
-        <h2 class="text-md">Components</h2>
         <ul>
           <li><a href="#Alert">Alert</a></li>
 
@@ -33,13 +56,13 @@
           <li><a href="#Image">Image</a></li>
           <li><a href="#Modal">Modal</a></li>
           <li><a href="">Navigation</a></li>
-          <li><a href="">Toast</a></li>
+          <li><a href="#Toast">Toast</a></li>
           <li><a href="">Typography</a></li>
         </ul>
       </aside>
       <!-- end side navbar -->
       <!-- components -->
-      <!-- <section class="components"> -->
+
       <section class="component-area">
         <h1 class="text-center text-xlg">Cheet Css checkbox</h1>
         <div id="Alert">
@@ -59,109 +82,166 @@
             A alert for display information message
           </div>
           <!-- </section> -->
+        </div>
+        <div class="divider"></div>
 
-          <hr />
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%25E2%259C%2594%25EF%25B8%258F%2520This%2520is%2520success%2520alert%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%25E2%259D%258C%2520This%2520is%2520an%2520error%2520alert%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%25E2%259A%25A0%25EF%25B8%258F%2520This%2520is%2520warning%2520alert%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-information%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%253Ci%2520class%253D%2522fa%2520fa-info-circle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%2520This%2520is%2520an%2520information%2520alert%21%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 297px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
         <div id="Avatar">
-          <div class="component-intro"></div>
-        </div>
-        <div id="Badge">
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-          <h3>zeron</h3>
-        </div>
-        <div id="Card">
           <div class="component-intro">
-            <h1>Cards</h1>
-            <p class="body-cp-lg text-light-weight">
-              Card are used to show user related data collectively, like product
-              details.
+            <h2>Avatar</h2>
+            <p class="docs-body-para">
+              An image used as a user's profile picture, usually in a circular
+              shape.
             </p>
           </div>
-          <div class="example-container">
-            <div class="card">
-              <div class="card-header">
-                <div class="card-title">Card Title</div>
-                <div class="img title"></div>
-              </div>
-              <div class="card-body">
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Obcaecati omnis natus assumenda. Quos aspernatur ut cupiditate
-                  molestiae voluptatem illo sed.
-                </p>
-              </div>
-              <div class="card__footer">
-                <button type="submit">Sumit</button>
-                <button type="submit">Clear</button>
-              </div>
-            </div>
-            <div class="card card-ecommerce">
-              <div class="card-header-img">
-                <img src="https://picsum.photos/300/200?random=2" />
-              </div>
-              <div class="card-body">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                  repellendus, veniam quas accusantium doloremque perferendis.
-                </p>
-              </div>
-              <div class="card-footer">
-                <li>
-                  <a href="">
-                    <i class="fab fa-instagram fa-2x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <i class="fab fa-twitter fa-2x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href=""><i class="fab fa-whatsapp fa-2x"></i></a>
-                </li>
-              </div>
-            </div>
-            <div class="card-comp">
+          <div class="">
+            <h3>Standard Avatar</h3>
+            <figure class="component-example avatar-flex">
               <img
-                class="img-comp"
-                src="https://picsum.photos/300/200?random=2"
-                alt="Food Image"
+                class="avatar avatar-lg"
+                src="./assets/avatar/avatar-one.png"
+                alt="avatar-profile-1"
               />
-              <div class="text-comp">
-                <div class="header-comp">
-                  <div class="header">Food image</div>
-                  <div class="sub-header">₹ 529</div>
-                </div>
-                <div class="detail-comp">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
-                  perspiciatis nostrum nobis incidunt eligendi!
-                </div>
-              </div>
-              <div class="icons-comp">
-                <i class="fa fa-heart icon"></i>
-                <i class="fa fa-share-alt icon"></i>
-                <i class="fa fa-ellipsis-v icon"></i>
-              </div>
-            </div>
+              <img
+                class="avatar avatar-md"
+                src="./assets/avatar/avatar-one.png"
+                alt="avatar-profile-1"
+              />
+              <img
+                class="avatar avatar-sm"
+                src="./assets/avatar/avatar-one.png"
+                alt="avatar-profile-1"
+              />
+              <img
+                class="avatar avatar-xs"
+                src="./assets/avatar/avatar-one.png"
+                alt="avatar-profile-1"
+              />
+            </figure>
+          </div>
+
+          <div class="component-example">
+            <h2>Text Avatar</h2>
+            <!-- <figure class="avatar-text-center"> -->
+            <figure class="avatar-flex">
+              <figure class="avatar-text avatar-lg">G</figure>
+              <figure class="avatar-text avatar-md">S</figure>
+              <figure class="avatar-text avatar-sm">K</figure>
+              <figure class="avatar-text avatar-xs">A</figure>
+            </figure>
           </div>
         </div>
+        <div class="divider"></div>
+
+        <div id="Badge">
+          <h2>Avatar telling user status</h2>
+          <div class="component-example">
+            <figure class="avatar-flex badge">
+              <figure class="avatar-text avatar-sm">
+                <span class="badge-status badge-online"></span>Su
+              </figure>
+
+              <figure class="avatar-text avatar-sm">
+                <span class="badge-status badge-offline"></span>Gk
+              </figure>
+
+              <!-- </figure> -->
+            </figure>
+          </div>
+          <h2>Badge on Icon</h2>
+          <div class="badge">
+            <i class="fab fa-whatsapp fa-3x" aria-hidden="true"></i>
+            <span class="badge-sucess badge-icon">300</span>
+          </div>
+          <div class="badge">
+            <i class="fab fa-instagram fa-3x" aria-hidden="true"></i>
+            <span class="badge-icon badge-danger">300</span>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+        <div id="Button">
+          <div class="component-example">
+            <button class="btn btn-success">Primary</button>
+            <button class="btn btn-outline">Link</button>
+            <button class="btn btn-success">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="btn-floating">+</button>
+          </div>
+        </div>
+        <div class="divider"></div>
+
+        <div class="Card">
+          <h2>Card with Text only</h2>
+          <div class="card text-card">
+            <h5 class="card-title">Heading</h5>
+            <p class="card-subtitle">Sub-Heading</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur. Dolorum atque aspernatur
+              in soluta beatae debitis ad illo sed id velit?
+            </p>
+          </div>
+          <div class="divider"></div>
+          <h2>Card with Badge</h2>
+          <div class="card card-relative">
+            <div class="">
+              <img class="card-image" src="./assets/card/food.jpg" alt="" />
+            </div>
+            <div class="card-badge">TRENDING</div>
+
+            <div class="card-body">
+              <h5 class="card-title">Pomegranate</h5>
+              <p class="card-text">Fruit</p>
+              <div class="card-price">
+                <span class="price-after-discount">₹149</span>
+              </div>
+
+              <button class="btn-outline">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <h2>Card Dismiss</h2>
+          <div class="card-disabled">
+            <div class="text-overlay">Out Of Stock</div>
+            <img
+              class="card-image"
+              src="/assets/card/pepsi.jpg"
+              alt="Food Image"
+            />
+            <div class="card-subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
+              nihil tempora alias?
+            </div>
+            <div class="card-footer">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <i class="fa-solid fa-credit-card fa-2x"></i>
+            </div>
+          </div>
+          <h2>Card with shadow</h2>
+          <div class="card-shadow text-card">
+            <h5 class="card-title">Heading</h5>
+            <p class="card-subtitle">Sub-Heading</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur. Dolorum atque aspernatur
+              in soluta beatae debitis ad illo sed id velit?
+            </p>
+          </div>
+          <h2>Horizontal card</h2>
+          <div class="card-horizontal">
+            <div class="">
+              <img class="horizontal-img" src="/assets/card/itc.jpg" />
+            </div>
+            <div>
+              <div class="card-title">ITC</div>
+              <div class="card-subtitle">₹ 229</div>
+            </div>
+            <i class="fa fa-share-alt icon"></i>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
         <!-- Form -->
         <div id="Form">
           <div class="component-into">
@@ -171,7 +251,8 @@
               fields, checkboxes, radio buttons, submit buttons, etc.
             </p>
           </div>
-          <div class="component-example">
+          <h2>Standard Input</h2>
+          <div class="component-example input">
             <label>Username </label>
 
             <input type="email" name="" id="" placeholder="Enter your email" />
@@ -183,8 +264,8 @@
               id=""
               placeholder="Enter your password"
             />
-            <hr />
-
+          </div>
+          <div class="component-example">
             <label>Username </label>
 
             <input type="email" name="" id="" placeholder="Enter your email" />
@@ -218,7 +299,50 @@
             <label for="age2">31 - 60</label><br />
           </div>
         </div>
-        <!-- </section> -->
+        <div class="divider"></div>
+
+        <!-- Image -->
+        <div id="Image">
+          <div class="component-intro">
+            <h2>
+              Here is two types of image on is rounded & on is square shape
+              image both of them is responsive image
+            </h2>
+          </div>
+          <div class="component-example">
+            <h2 class="">Responsive Image</h2>
+            <p>
+              Responsive images change their aspect ratio according to the
+              container it is contained in.
+            </p>
+
+            <img src="./assets/line-quote.jpg" alt="" class="img-fluid" />
+          </div>
+          <div>
+            <h2 class="">Rounded Image</h2>
+
+            <div class="round-img">
+              <img src="./assets/danvh.jpg" alt="" class="round-img" />
+            </div>
+          </div>
+          <div class="component-example"></div>
+        </div>
+        <!-- Toast -->
+
+        <div id="Toast">
+          <div class="component-intro"></div>
+          <div class="component-example">
+            <div class="toast alert alert-danger">
+              <p class="toast_txt">Something went wrong!</p>
+              <button><i class="fas fa-times"></i></button>
+            </div>
+            <div class="toast alert alert-in">
+              <p class="toast_txt">Something went wrong!</p>
+              <button><i class="fas fa-times"></i></button>
+            </div>
+            >>>>>>> fabfa32809fc96a56ca2fd0677c571539e243d63
+          </div>
+        </div>
         <!-- end components -->
       </section>
     </div>

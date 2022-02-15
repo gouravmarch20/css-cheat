@@ -1,0 +1,36 @@
+.input {
+  padding: 2rem;
+}
+.input-field {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-left: 0.4rem;
+  border: 2px solid var(--color-text-subheading);
+  border-radius: 0.7rem;
+  outline: none;
+}
+.form-input {
+  width: 60%;
+  margin: 1rem auto;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.form-group {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.form-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-name {
+  /* background-color:red; */
+  margin-top: 50px !important;
+  padding: 1rem;
+}
+.form-btn {
+  background-color: #383cc1;
+}

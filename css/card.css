@@ -1,58 +1,72 @@
-/* .img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-left: 10px;
-  background-color: lightblue;
-}
-
-
-.card__header {
-  display: flex;
-  align-items: center;
-  padding: 0px 12px;
-}
-.img {
-  margin-left: auto;
-  object-fit: cover;
-}
-
-.card__footer {
-  padding: 0 12px;
-  display: flex;
-  height: 50px;
-  align-items: center;
-  justify-content: flex-end;
-  background-color: var(--color-blue);
-} */
 .card {
-  width: 60%;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  border-radius: 3px;
-  box-shadow: 1px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: 4px 8px 16px 4px rgba(41, 153, 125, 0.4);
-  margin-bottom: 1.5rem;
-}
-.card-body {
-  padding: 16px 12px;
-  font-weight: bold;
-}
-
-.card-ecommerce {
-  display: flex;
-  flex-direction: column;
+  width: 300px;
+  justify-content: center !important;
   align-items: center;
+  border-radius: 8px;
+  padding: 1rem;
+  border: solid 1px var(--color-text-subheading);
 }
-.card-header-img {
-  /* width: 80%; */
-  margin-top: 1rem;
-  /* height: 50px; */
-  /* margin: 0 auto; */
+.card-title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.card-subtitle {
+  font-weight: bold;
+  color: var(--color-text-subheading);
+  padding-top: 4px;
 }
 
+.card-text {
+  font-weight: 600;
+
+  color: var(--color-text-content);
+}
+
+.card-badge {
+  position: absolute;
+  top: 1rem;
+  background-color: var(--color-info);
+  padding: 1rem 0.5rem;
+}
+.card-relative {
+  position: relative;
+  width: 300px;
+  margin-left: 1rem;
+  background-color: #cad5e2;
+}
+.card-image {
+  border-radius: 1rem;
+}
+.card-disabled {
+  position: relative;
+}
 .card-footer {
   display: flex;
- 
+  align-items: center;
+  justify-content: center;
+}
+.card-footer i {
+  color: var(--color-text-subheading);
+}
+.text-overlay {
+  position: absolute;
+  top: 6rem;
+  font-size: 4rem;
+  transform: rotate(45deg);
+  color: red;
+  background-color: grey;
+}
+.card-shadow {
+  width: 300px;
+  background-color: #38cc77;
+  box-shadow: 0 10px 10px rgb(252, 17, 111);
+}
+.card-horizontal {
+  display: flex;
+  width: 350px;
+  border: 1px dotted blue;
+  box-shadow: 0 4px 4px rgb(252, 17, 111);
+
 }

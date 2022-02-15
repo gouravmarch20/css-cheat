@@ -1,8 +1,13 @@
 @import "./var.css";
 
 .side-navbar {
-  width: 20%;
+  margin-top: 10vh;
+  width: 18%;
   background-color: var(--color-sucess);
+  height: 100vh;
+  overflow: scroll;
+  position: fixed;
+  margin-right: 1rem;
 }
 .side-navbar li a {
   display: inline-block;
@@ -10,14 +15,31 @@
   font-size: 1.5rem;
   box-shadow: 0 10px 10px rgba(235, 25, 110, 1) !important;
 }
+.side-navbar li a:hover {
+  background-color: var(--color-space);
+  color: var(--color-danger);
+  padding: 1.3rem;
+}
 .docs-area {
   display: flex;
 }
+
+.nav-fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
 .component-area {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  background-color: var(--color-fancy);
-  background-color: #faf9f6;
+  margin-left: 25rem;
+  margin-top: 10vh;
+}
+@media (max-width: 800px) {
+  .component-area {
+    margin-left: 10rem;
+  }
+}
+@media (max-width: 1200px) {
+  .component-area {
+    margin-left: 15rem;
+  }
 }

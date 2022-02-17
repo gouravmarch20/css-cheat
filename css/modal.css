@@ -1,0 +1,48 @@
+.component-model {
+  height: 300px !important;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper a {
+  display: inline-block;
+  padding: 15px;
+}
+#modalbox {
+}
+.component-modal {
+}
+.modal-content {
+    
+}
+.modal {
+  position: relative;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s;
+  visibility: hidden;
+  width: 60%;
+  margin: 0 auto;
+}
+.modal:target {
+  visibility: visible;
+}
+.modal-content {
+  position: absolute;
+  background-color: red;
+  width: 500px;
+  top: -10;
+}
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}

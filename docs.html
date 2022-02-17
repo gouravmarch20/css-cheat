@@ -58,43 +58,68 @@
           <li><a href="">Navigation</a></li>
           <li><a href="#Toast">Toast</a></li>
           <li><a href="">Typography</a></li>
+          <li><a href="">Typography</a></li>
+          <li><a href="">Typography</a></li>
+          <li><a href="">Typography</a></li>
+          <li><a href="">Typography</a></li>
         </ul>
       </aside>
       <!-- end side navbar -->
       <!-- components -->
 
       <section class="component-area">
-        <h1 class="text-center text-xlg">Cheet Css checkbox</h1>
+        <h1 class="text-center text-xlg text-green bg-info">
+          &#171; Cheet Css &#8715;
+        </h1>
         <div id="Alert">
-          <section class="component-content">
-            <h2 class="text-center text-lg">Alert</h2>
-            <p class="text-sm">
+          <section>
+            <h2 class="heading">Alert</h2>
+
+            <h3 class="subheading">Simple Alert</h3>
+            <p class="text-sm content">
               An alert displays a short and important message to attracts the
               user's attention without interrupting the user's task.
             </p>
           </section>
-          <!-- <section class="component-example"> -->
-          <div class="alert bg-sucess">A sucess alert example</div>
-          <div class="alert bg-space text-info">A secondary alert</div>
-          <div class="alert bg-danger">A danger waring alert example!!!!</div>
-          <div class="alert bg-wait">A warning alert example!!!</div>
-          <div class="alert bg-info">
-            A alert for display information message
-          </div>
-          <!-- </section> -->
+          <div class="divider-mini"></div>
+          <section class="component-example">
+            <div class="alert alert-danger">A sucess alert example</div>
+            <div class="alert alert-sucess">A secondary alert</div>
+            <div class="alert alert-info">
+              A danger waring alert example!!!!
+            </div>
+            <div class="alert alert-wait">A warning alert example!!!</div>
+          </section>
+          <div class="divider-mini"></div>
+          <h3 class="subheading"> Alert with close button </h3>
+
+          <section class="component-example bg-info"  >
+            <div class="alert alert-danger" id="alert-danger-hide">
+              <div>
+                
+                A sucess alert example</div>
+                <button id="alert-danger-btn-close" >X</button>
+              </div>
+            <div class="alert alert-danger" id="alert-sucess-hide">
+              <div>
+                
+                A sucess alert example</div>
+                <button id="alert-sucess-btn-close" >X</button>
+              </div>
+            </section>
         </div>
+
         <div class="divider"></div>
 
         <div id="Avatar">
-          <div class="component-intro">
-            <h2>Avatar</h2>
-            <p class="docs-body-para">
+          <section >
+            <h2 class="heading">Avatar</h2>
+            <p class="text-sm content">
               An image used as a user's profile picture, usually in a circular
               shape.
             </p>
-          </div>
-          <div class="">
-            <h3>Standard Avatar</h3>
+          </sec>
+          <h3 class="subheading">Avatar with image </h3>
             <figure class="component-example avatar-flex">
               <img
                 class="avatar avatar-lg"
@@ -117,11 +142,10 @@
                 alt="avatar-profile-1"
               />
             </figure>
-          </div>
+          <div class="divider-mini"></div>
 
+            <h3 class="subheading">Text Avatar</h3>
           <div class="component-example">
-            <h2>Text Avatar</h2>
-            <!-- <figure class="avatar-text-center"> -->
             <figure class="avatar-flex">
               <figure class="avatar-text avatar-lg">G</figure>
               <figure class="avatar-text avatar-md">S</figure>
@@ -133,33 +157,54 @@
         <div class="divider"></div>
 
         <div id="Badge">
-          <h2>Avatar telling user status</h2>
+          <h2 class="heading">Badge</h2>
+
+          <h3 class="subheading">Badge Telling user status</h3>
           <div class="component-example">
-            <figure class="avatar-flex badge">
-              <figure class="avatar-text avatar-sm">
-                <span class="badge-status badge-online"></span>Su
-              </figure>
+        
+              <figure class="badge">
+                <img
+                class="avatar avatar-sm "
+                src="./assets/avatar/avatar-one.png"
+                alt="avatar-profile-1"
+              />              
+            
+              <span class="badge-status badge-offline"></span>
 
-              <figure class="avatar-text avatar-sm">
-                <span class="badge-status badge-offline"></span>Gk
-              </figure>
+            </figure>
+              <figure class="badge">
+                <img
+                class="avatar avatar-sm "
+                src="./assets/avatar/avatar-one.png"
+                alt="avatar-profile-1"
+              />              
+            
+              <span class="badge-status badge-online"></span>
 
-              <!-- </figure> -->
+            </figure>
+           
             </figure>
           </div>
-          <h2>Badge on Icon</h2>
-          <div class="badge">
+          <div class="divider-mini"></div>
+
+            <h3 class="subheading"> Badge on Icon</h3>
+            <div class="component-example">
+              <div class="badge">
             <i class="fab fa-whatsapp fa-3x" aria-hidden="true"></i>
             <span class="badge-sucess badge-icon">300</span>
           </div>
           <div class="badge">
             <i class="fab fa-instagram fa-3x" aria-hidden="true"></i>
-            <span class="badge-icon badge-danger">300</span>
+            <span class="badge-icon badge-danger">10</span>
+          </div>
           </div>
         </div>
 
         <div class="divider"></div>
         <div id="Button">
+        <h2 class="heading">Buttons</h2>
+        <h3 class="subheading">Lorem ipsum dolor sit.</h3>
+        <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, recusandae? Eius delectus quaerat perferendis adipisci. Maxime qui rerum laudantium maiores quas</p>
           <div class="component-example">
             <button class="btn btn-success">Primary</button>
             <button class="btn btn-outline">Link</button>
@@ -168,11 +213,13 @@
             </button>
             <button class="btn-floating">+</button>
           </div>
-        </div>
+          </div>
+
         <div class="divider"></div>
 
         <div class="Card">
-          <h2>Card with Text only</h2>
+          <h2 class="heading">Card </h2>
+          <h3 class="subheading">Card with text only</h3>
           <div class="card text-card">
             <h5 class="card-title">Heading</h5>
             <p class="card-subtitle">Sub-Heading</p>
@@ -416,21 +463,33 @@
             <div class="wrapper">
               <a href="#modalbox">Click to open the modal box</a>
             </div>
-            <div id="modalbox" class="modal"> 
+            <div id="modalbox" class="modal">
               <div class="modal-content">
                 <h1>Modal using css</h1>
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>Lorem ipsum dolor sit amet.</p>
-              
-                <a href="#" class="modal-close"> <i class="fa-solid fa-xmark"></i></a>
+
+                <a href="#" class="modal-close">
+                  <i class="fa-solid fa-xmark"></i
+                ></a>
               </div>
             </div>
           </div>
         </div>
         <!-- Toast -->
-
+        <div class="divider"></div>
         <div id="Toast">
-          <div class="component-intro"></div>
+          <div class="component-intro">
+            <h4 class="component-heading">Toast</h4>
+            <p class="component-sub-heading">
+              Toasts are used to show pop up messages to the user.
+            </p>
+            <div class="component-example flex">
+              <button class="button button-primary" id="toast-left-button">
+                Left Demo
+              </button>
+            </div>
+          </div>
           <div class="component-example">
             <div class="toast alert alert-danger">
               <p class="toast_txt">Something went wrong!</p>
@@ -445,5 +504,8 @@
         <!-- end components -->
       </section>
     </div>
+    <!-- Javascript Code -->
+    <script src="./javascript/alert.js"></script>
+
   </body>
 </html>

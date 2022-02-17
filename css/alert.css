@@ -1,11 +1,25 @@
 .alert {
-  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 1rem;
 
-  margin: 0.5rem;
-  padding: 1.3rem 1rem;
-  text-align: center;
+  margin: 1rem auto;
+  border-radius: 7px;
   font-weight: bold;
 }
 .alert-danger {
   background-color: var(--color-danger);
+}
+.alert-sucess {
+  background-color: var(--color-sucess);
+}
+.alert-info {
+  background-color: var(--color-info);
+}
+.alert-wait {
+  background-color: var(--color-wait);
+}
+#alert-sucess-hide {
+  background-color: var(--color-sucess);
 }

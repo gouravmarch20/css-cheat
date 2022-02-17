@@ -5,41 +5,62 @@
   color: #242b2e;
 }
 
+/* tag coustomize */
 html {
-  /* font-size: 62.5%; */
-  /* font-size: 1rem; */
+  scroll-behavior: smooth;
 }
-body {
-}
-.container {
-  width: 100%;
-
-  margin: 0 auto;
-}
-p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+i,
+button {
   margin: 1rem;
 }
-hr {
-  border-top: 3px solid red;
-  color: #123455;
 
-  width: 60%;
-  margin: auto;
-}
-
-.container-fluid {
-  width: 80%;
-  margin: 0 auto;
-}
-ul {
-}
 li {
   list-style-type: none;
-  margin: 0.2rem;
+  margin: 0.3rem;
 }
 a {
   text-decoration: none;
 }
+
+button {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 900;
+
+  padding: 14px 16px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #f082ac;
+}
+
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+  object-position: top center;
+  margin: 1rem;
+  /* aspect-ratio: 2/1; */
+}
+
+/*  text responsive  */
 .text-xlg {
   font-size: 3rem;
 }
@@ -62,69 +83,19 @@ a {
 .text-right {
   text-align: right;
 }
-.mt-1 {
-  margin-top: 1rem;
-}
-/* CSS */
-button {
-  background-color: #ea4c89;
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  color: #ffffff;
-  cursor: pointer;
-  /* display: inline-block; */
 
-  font-size: 18px;
-  font-weight: 900;
-
-  padding: 14px 20px;
-  text-align: center;
+/* mostly used css  */
+.container {
+  width: 100%;
+  margin: 0 auto;
 }
-
-button:hover,
-button:focus {
-  background-color: #f082ac;
+.container-fluid {
+  width: 80%;
+  margin: 0 auto;
 }
-p-1 {
-  padding: 1rem;
-}
-/* .example-container {
-  border: 1px solid blue;
-  margin: 1rem;
-} */
-img,
-video,
-iframe {
-  /* must */
-  max-inline-size: 100%;
-  block-size: auto;
-
-  object-fit: contain;
-  object-fit: cover;
-  /* vary */
-  object-position: top center;
-  aspect-ratio: 2/1;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 , p , a , button, i{
-  margin: 1rem;
-}
-/*  */
 .component-example {
   margin: 1rem;
   border: dotted 1px blue;
 
   box-shadow: 4px 3px 3px rgba(25, 34, 29, 0.4);
-}
-.divider {
-  height: 2px;
-  width: 80%;
-  margin: 2rem auto;
-
-  background-color: var(--color-text-content);
 }

@@ -18,6 +18,12 @@
   align-items: center;
   justify-content: center;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .heading {
   color: var(--color-text-blue-heading);
   font-size: 3rem;

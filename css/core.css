@@ -32,7 +32,6 @@ a {
 }
 
 button {
-  background-color: #ea4c89;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -98,4 +97,14 @@ iframe {
   border: dotted 1px blue;
 
   box-shadow: 4px 3px 3px rgba(25, 34, 29, 0.4);
+}
+/*  */
+.ml-2 {
+  margin-left: 2rem;
+}
+.ml-3 {
+  margin-left: 3rem;
+}
+.mt-1 {
+  margin-top: 1rem !important;
 }

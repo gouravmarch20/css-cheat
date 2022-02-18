@@ -23,3 +23,6 @@
 #alert-sucess-hide {
   background-color: var(--color-sucess);
 }
+.alert-btn{
+  background-color: var(--color-space);
+}

@@ -34,3 +34,27 @@
 .form-btn {
   background-color: #383cc1;
 }
+.input-danger {
+  border: 1px solid red;
+  padding: 0.7rem;
+  border-radius: 2rem;
+}
+.input-danger:focus {
+  background-color: #ff6263;
+}
+.input-error-message {
+  color: red;
+}
+
+.input-font-default label {
+  font-size: 1.2rem;
+  color: var(--color-text-content) !important;
+}
+.input-textarea{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.bg-light{
+  background-color: lightblue;
+}

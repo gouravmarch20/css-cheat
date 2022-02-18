@@ -15,7 +15,6 @@
 .component-modal {
 }
 .modal-content {
-    
 }
 .modal {
   position: relative;
@@ -37,7 +36,7 @@
 }
 .modal-content {
   position: absolute;
-  background-color: red;
+  background-color: #FF6666;
   width: 500px;
   top: -10;
 }

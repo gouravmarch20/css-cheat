@@ -98,13 +98,13 @@
               <div>
                 
                 A sucess alert example</div>
-                <button id="alert-danger-btn-close" >X</button>
+                <button class="alert-btn" id="alert-danger-btn-close" >X</button>
               </div>
             <div class="alert alert-danger" id="alert-sucess-hide">
               <div>
                 
                 A sucess alert example</div>
-                <button id="alert-sucess-btn-close" >X</button>
+                <button id="alert-sucess-btn-close"  class="alert-btn" >X</button>
               </div>
             </section>
         </div>
@@ -160,7 +160,7 @@
           <h2 class="heading">Badge</h2>
 
           <h3 class="subheading">Badge Telling user status</h3>
-          <div class="component-example">
+          <div class="component-example flex">
         
               <figure class="badge">
                 <img
@@ -203,24 +203,52 @@
         <div class="divider"></div>
         <div id="Button">
         <h2 class="heading">Buttons</h2>
-        <h3 class="subheading">Lorem ipsum dolor sit.</h3>
-        <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, recusandae? Eius delectus quaerat perferendis adipisci. Maxime qui rerum laudantium maiores quas</p>
-          <div class="component-example">
+        <h3 class="subheading">Simple Button</h3>
+        <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+          <div class="component-example flex">
             <button class="btn btn-success">Primary</button>
-            <button class="btn btn-outline">Link</button>
-            <button class="btn btn-success">
-              <i class="fas fa-shopping-cart"></i>
-            </button>
-            <button class="btn-floating">+</button>
+            <button class="btn btn-info">Info</button>
+            <button class="btn btn-danger">Pay Now</button>
+           
           </div>
+          <div class="divider-mini"></div>
+
+          <h3 class="subheading">Outline Button</h3>
+          <div class="component-example flex">
+            <button class="btn btn-outline-success">Sucess</button>
+            <button class="btn btn-outline-wait">Info</button>
+            <button class="btn  btn-outline-danger ">Pay Now</button>
+          </div>
+          <div class="divider-mini"></div>
+          <h3 class="subheading">Link Button</h3>
+          <div class="component-example flex">
+            <button class="btn btn-outline-success btn-link"> <a href="https://educationrail.com/" target="_blank"  > Eduction Rail</a> </button>
+            <button class="btn btn-outline-danger btn-link "> <a href="https://trixoon.com/" target="_blank" >Main website</a> </button>
+          </div>
+          <div class="divider-mini"></div>
+
+          <h3 class="subheading">Icon Button</h3>
+          <div class="component-example flex">
+          <button class="btn  btn-space ">	<i class="fa-solid fa-cart-arrow-down color-fancy"></i></button>
+          <button class="btn  btn-space ">	<i class="fa-solid fa-house color-fancy"></i></button>
+
+
+          </div>
+          <div class="divider-mini"></div>
+          <h3 class="subheading"> Floating  Button</h3>
+
+          <div class="component-example flex">
+            <button class="btn btn-sucess btn-floating " id="btn-scroll-up">	<i class="fa-solid fa-arrow-up color-fancy "></i></button>
+            <button class="btn btn-danger btn-floating " id="btn-scroll-down">	<i class="fa-solid fa-angle-down  "></i></button>
+              </div>
           </div>
 
         <div class="divider"></div>
 
-        <div class="Card">
+        <div id="Card">
           <h2 class="heading">Card </h2>
           <h3 class="subheading">Card with text only</h3>
-          <div class="card text-card">
+          <div class="card text-card flex  component-example">
             <h5 class="card-title">Heading</h5>
             <p class="card-subtitle">Sub-Heading</p>
             <p class="card-text">
@@ -228,9 +256,10 @@
               in soluta beatae debitis ad illo sed id velit?
             </p>
           </div>
-          <div class="divider"></div>
-          <h2>Card with Badge</h2>
-          <div class="card card-relative">
+          <div class="divider-mini"></div>
+          
+          <h3 class="subheading">Card with Badge</h3>
+          <div class="card card-relative component-example">
             <div class="">
               <img class="card-image" src="./assets/card/food.jpg" alt="" />
             </div>
@@ -239,18 +268,19 @@
             <div class="card-body">
               <h5 class="card-title">Pomegranate</h5>
               <p class="card-text">Fruit</p>
-              <div class="card-price">
-                <span class="price-after-discount">₹149</span>
+              <span > ₹
+                 534</span>
               </div>
 
-              <button class="btn-outline">ADD TO CART</button>
+              <button class="btn-danger">ADD TO CART</button>
             </div>
-          </div>
-          <div class="divider"></div>
+          <div class="divider-mini"></div>
 
-          <h2>Card Dismiss</h2>
-          <div class="card-disabled">
-            <div class="text-overlay">Out Of Stock</div>
+          <h3 class="subheading" >Card Dismiss</h3>
+          <div class="card  component-example card-relative ">
+            <div class="text-overlay">Out Of Stock !!! </div>
+            <div class="card-disabled">
+
             <img
               class="card-image"
               src="/assets/card/pepsi.jpg"
@@ -265,25 +295,31 @@
               <i class="fa-solid fa-credit-card fa-2x"></i>
             </div>
           </div>
-          <h2>Card with shadow</h2>
+          </div>
+          <div class="divider-mini"></div>
+
+          <h3 class="subheading">Card with shadow</h3>
           <div class="card-shadow text-card">
             <h5 class="card-title">Heading</h5>
             <p class="card-subtitle">Sub-Heading</p>
-            <p class="card-text">
+            <p class="card-text-glow">
               Lorem ipsum dolor sit amet, consectetur. Dolorum atque aspernatur
               in soluta beatae debitis ad illo sed id velit?
             </p>
           </div>
-          <h2>Horizontal card</h2>
-          <div class="card-horizontal">
+          <div class="divider-mini"></div>
+
+          <h3 class="subheading">Horizontal card</h3>
+          <div class="card-horizontal ">
             <div class="">
               <img class="horizontal-img" src="/assets/card/itc.jpg" />
             </div>
-            <div>
-              <div class="card-title">ITC</div>
-              <div class="card-subtitle">₹ 229</div>
+            <div class="card-horizontal-content">
+
+              <div class="card-horizontal-title">ITC</div>
+              <div class="card-horizontal-subtitle">₹ 229</div>
+              <i class="fa fa-share-alt card-horizontal-icon"></i>
             </div>
-            <i class="fa fa-share-alt icon"></i>
           </div>
         </div>
 
@@ -291,19 +327,17 @@
 
         <!-- Form -->
         <div id="Form">
-          <div class="component-into">
-            <h1>Form Components</h1>
 
-            <p>
-              This element have different types of input elements, such as: text
-              fields, checkboxes, radio buttons, submit buttons, etc.
-            </p>
-          </div>
-          <h2>Standard Input</h2>
-          <div class="component-example input">
+
+
+         
+          
+          <h3 class="subheading">Sign Up Form</h3>
+
+          <div class="component-example input bg-light">
             <div>
               <h2 class="text-center">Sign up Now</h2>
-              <label for="username-one">Username </label>
+              <label for="username-one">Email &#x2709</label>
 
               <input
                 type="email"
@@ -323,26 +357,25 @@
                 placeholder="Enter your password"
               />
             </div>
-            <!-- <div class="divider"></div> -->
 
             <div class="form-group">
               <div>
-                <label class="input-name">Name</label>
+                <label class="input-name" for="username">Name</label>
                 <input
                   type="text"
                   name=""
-                  id=""
-                  placeholder=" name"
+                  id="username"
+                  placeholder="Enter your name"
                   class="input-field"
                 />
               </div>
               <div>
-                <label class="input-name">Surname</label>
+                <label class="input-name" for="surname">Surname</label>
 
                 <input
                   type="text"
                   name=""
-                  id=""
+                  id="surname"
                   placeholder="Enter your Surname"
                   class="input-field"
                 />
@@ -357,35 +390,31 @@
               <button class="form-btn" type="submit">Sign up</button>
             </div>
           </div>
-          <h2>Other form input</h2>
 
-          <div class="component-example form-center">
-            <div>
-              <label>Username </label>
 
-              <input
-                type="email"
-                name=""
-                id=""
-                placeholder="Enter your email"
-                class="input-field"
-              />
-            </div>
-            <div>
-              <label>Password </label>
+          
+          <h3 class="subheading">Input box </h3>
+<div class="input-error">
+<input type="password" class=" input-danger ">
+<span class="input-error-message">Wrong password</span>
+</div>
+          <h3 class="subheading">Other input type  </h3>
 
-              <input
-                type="password"
-                name=""
-                id=""
-                placeholder="Enter your password"
-                class="input-field"
-              />
-            </div>
-            <div>
-              <label for="" class="mt">Enter TextArea</label>
+          <div class="component-example flex-column bg-light">
+         <div class="ml-3 input-font-default">
+
+          <h6 class="subheading">TextArea</h6>
+
+      
+            <div class="input-textarea" >
+              <label for="" class="mt-1 text-center">Enter TextArea</label>
               <textarea rows="4" cols="50" class="input-field"> </textarea>
+           
             </div>
+
+            <div class="divider-mini mt-1"></div>
+            <h6 class="subheading">Date</h6>
+
             <div>
               <label for="">Select your Date for birth</label>
               <input
@@ -395,7 +424,12 @@
                 placeholder="Enter your Birth Date"
                 class="input-field"
               />
+            
             </div>
+            <div class="divider-mini mt-1"></div>
+            <h6 class="subheading">Option </h6>
+
+
             <div>
               <label for="">Select your Country</label>
               <select required class="input-field">
@@ -404,8 +438,12 @@
                 <option value="United States">United States</option>
               </select>
             </div>
+            <div class="divider-mini mt-1"></div>
+
+            <h6 class="subheading">Radio button</h6>
+
             <div>
-              <p>Please select your age:</p>
+              <p class="text-sm">Please select your age range :</p>
               <input
                 type="radio"
                 id="age1"
@@ -423,53 +461,55 @@
               />
               <label for="age2">31 - 60</label><br />
             </div>
+            <div class="divider-mini"></div>
+
+            <h6 class="subheading">Checkbox</h6>
+            <input type="checkbox" id="pokemon1"  value="Venusaur">
+            <label for="vehicle1"> I have Venusaur </label><br>
+            <input type="checkbox" id="pokemon2"  value="Charmander ">
+            <label for="vehicle2"> I have Charmander </label><br>
+            <input type="checkbox" id="pokemon3"  value="Squirtle ">
+            <label for="vehicle3"> I have a Squirtle </label>
           </div>
-        </div>
+          </div>
         <div class="divider"></div>
 
         <!-- Image -->
         <div id="Image">
-          <div class="component-intro">
-            <h2>
-              Here is two types of image on is rounded & on is square shape
-              image both of them is responsive image
-            </h2>
-          </div>
+          <h2 class="heading">Image </h2>  
+          
+          <h3 class="subheading">Responsive Image </h3>
           <div class="component-example">
-            <h2 class="">Responsive Image</h2>
-            <p>
-              Responsive images change their aspect ratio according to the
-              container it is contained in.
-            </p>
+      
 
-            <img src="./assets/line-quote.jpg" alt="" class="img-fluid" />
+            <img src="./assets/image/responsive.png" alt="" class="img-fluid" />
           </div>
+          <div class="divider-mini"></div>
+
           <div>
-            <h2 class="">Rounded Image</h2>
+            <h3 class="subheading">Rounded Image</h3>
 
             <div class="round-img">
-              <img src="./assets/danvh.jpg" alt="" class="round-img" />
+              <img src="./assets/image/responsive.png" alt="" class="round-img" />
             </div>
           </div>
         </div>
+        <div class="divider"></div>
+
         <!-- Modal -->
         <div id="Modal">
-          <h4 class="component-heading">Modal</h4>
-          <p class="component-sub-heading">
-            Modals are used to show some important information to the user and
-            they are closed only when the user selects some option.
-          </p>
-          <div class="component-example component-model">
+      <h2 class="heading mt-1">Modal</h2>
+          <div class="component-example component-model  ">
             <div class="wrapper">
-              <a href="#modalbox">Click to open the modal box</a>
+              <a href="#modalbox" class="subheading ">Click to Open  Modal Box</a>
             </div>
             <div id="modalbox" class="modal">
               <div class="modal-content">
-                <h1>Modal using css</h1>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <h6 class="subheading">Modal using css</h6>
+                <p class="content">Lorem ipsum dolor sit amet.</p>
+                <p> sit amet consectetur adipisicing elit. Eius natus, eveniet molestiae minima molestias accusantium ratione non debitis provident!</p>
 
-                <a href="#" class="modal-close">
+                <a href="#Modal" class="modal-close">
                   <i class="fa-solid fa-xmark"></i
                 ></a>
               </div>
@@ -506,6 +546,7 @@
     </div>
     <!-- Javascript Code -->
     <script src="./javascript/alert.js"></script>
+    <script src="./javascript/button.js"></script>
 
   </body>
 </html>

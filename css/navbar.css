@@ -65,3 +65,32 @@ color: var(--color-info);
         width: 50%;
 
 }
+
+/* compone nt */
+.navbar-classic{
+  height: 10vh;
+  background-color: #CAD5E2;
+  display: flex;
+  width: 80%;
+  margin: 1rem auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.nav-classic-right{
+  margin-left: auto;
+}
+.nav-classic-right > a:hover{
+  color: #E21717;
+  background-color: #02B290;
+  padding: .8rem;
+  border-radius: 1rem;
+  transition : all 1s ;
+}
+.nav-classic-left > a:hover{
+  color: #E21717;
+  background-color: #02B290;
+  padding: .8rem;
+  border-radius: 1rem;
+  transition : all 1s ;
+}

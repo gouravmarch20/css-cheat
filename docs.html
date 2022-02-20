@@ -519,27 +519,15 @@
         <!-- Toast -->
         <div class="divider"></div>
         <div id="Toast">
-          <div class="component-intro">
-            <h4 class="component-heading">Toast</h4>
-            <p class="component-sub-heading">
-              Toasts are used to show pop up messages to the user.
-            </p>
-            <div class="component-example flex">
-              <button class="button button-primary" id="toast-left-button">
-                Left Demo
-              </button>
-            </div>
-          </div>
-          <div class="component-example">
-            <div class="toast alert alert-danger">
-              <p class="toast_txt">Something went wrong!</p>
-              <button><i class="fas fa-times"></i></button>
-            </div>
-            <div class="toast alert alert-in">
-              <p class="toast_txt">Something went wrong!</p>
-              <button><i class="fas fa-times"></i></button>
-            </div>
-          </div>
+        <h2 class="heading">Toast</h2>
+        <h3 class="subheading">3 sec toast</h3>
+        <div class="component-example toast-relative ">
+       <!-- Use a button to open the snackbar -->
+<button class=" btn-danger"onclick="myFunction()">Toast</button>
+
+<div id="snackbar">will disappear in 3 second </div>
+<!-- The actual snackbar -->
+        </div>
         </div>
         <!-- end components -->
       </section>
@@ -547,6 +535,7 @@
     <!-- Javascript Code -->
     <script src="./javascript/alert.js"></script>
     <script src="./javascript/button.js"></script>
+    <script src="./javascript/toast.js"></script>
 
   </body>
 </html>

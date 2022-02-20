@@ -1,22 +1,20 @@
-.toast {
-  background-color: var(--primary-color-cl);
-  display: flex;
-  padding: 1rem 2rem;
-  justify-content: space-between;
-  border-radius: 0.5rem;
-  color: black;
-  width: 70%;
-  font-weight: 500;
-  box-shadow: 5px 5px 8px #757474;
+.toast-relative {
+  position: relative;
 }
 
-.hide-toast {
-  background: transparent;
-  border: none;
-  outline: none;
-  font-size: 1rem;
-}
+#snackbar {
+  visibility: hidden;
 
-.hide-toast:hover {
-  color: #1d547e;
+  background-color: black;
+  border-radius: 1px;
+  padding: 3rem;
+  position:   absolute;
+  z-index: 1;
+  font-weight: 900;
+  top: 30;
+  left: 30;
+  color: white;
+}
+#snackbar.show {
+  visibility: visible;
 }

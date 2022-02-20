@@ -38,3 +38,11 @@
   color: var(--color-text-content);
   /* background-color: red; */
 }
+.component-image {
+  max-height: 20vh;
+}
+.coder-code-image {
+  max-height: 20vh;
+
+  object-fit: contain;
+}

@@ -2,8 +2,8 @@
 
 .side-navbar {
   margin-top: 10vh;
-  width: 18%;
-  background-color: #46B2E0 ;
+  max-width: 25vw;
+  background-color: #46b2e0;
   height: 100vh;
   overflow: scroll;
   position: fixed;
@@ -30,16 +30,12 @@
   z-index: 999;
 }
 .component-area {
-  margin-left: 25rem;
+  margin-left: 24vw;
+  max-width: 80vw;
   margin-top: 10vh;
 }
-@media (max-width: 800px) {
-  .component-area {
-    margin-left: 10rem;
-  }
-}
-@media (max-width: 1200px) {
-  .component-area {
-    margin-left: 13rem;
-  }
+iframe {
+  overflow: scroll;
+  max-width: 20vw;
+  max-height: 40vh;
 }

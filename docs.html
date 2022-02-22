@@ -52,6 +52,7 @@
         <li><a href="#Image">Image</a></li>
         <li><a href="#Modal">Modal</a></li>
         <li><a href="#Navigation">Navigation</a></li>
+        <li><a href="#Rating">Rating</a></li>
         <li><a href="#Toast">Toast</a></li>
         <li><a href="#Utilities">Utilities</a></li>
         <div class="divider"></div>
@@ -71,7 +72,7 @@
           <h2 class="heading">Alert</h2>
 
           <h3 class="subheading">Simple Alert</h3>
-          <p class="text-sm content">
+          <p class="content">
             An alert displays a short and important message to attracts the
             user's attention without interrupting the user's task.
           </p>
@@ -116,7 +117,7 @@
       <div id="Avatar">
         <section>
           <h2 class="heading">Avatar</h2>
-          <p class="text-sm content">
+          <p class=" content">
             An image used as a user's profile picture, usually in a circular
             shape.
           </p>
@@ -497,7 +498,7 @@
 <div id="Grid">
   <h2 class="heading">Grid</h2>
   <h2 class="subheading">Grid-2: two items in a grid</h2>
-  <p class="content text-sm">You can place two items in the 2-column grid.</p>
+  <p class="content ">You can place two items in the 2-column grid.</p>
 
 
   <div class="component-example">
@@ -512,11 +513,10 @@
 </div>
 
   <div class="divider-mini">
-
   </div>
 
   <h2 class="subheading">Grid-3: three items</h2>
-  <p class="content text-sm">You can place three items in the 3-column grid</p>
+  <p class="content ">You can place three items in the 3-column grid</p>
   <div class="component-example">
     <main class="grid">
       <div class="grid-item-1">
@@ -590,6 +590,7 @@
   style="width: 1024px; height: 464px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
+<!-- Navigation start -->
         <div id="Navigation">
           <h2 class="heading">Navigation</h2>
           <h3 class="subheading">20's classic navbar</h3>
@@ -613,6 +614,36 @@
         style="width: 454px; height: 326px; border:0; transform: scale(1); overflow:hidden;"
         sandbox="allow-scripts allow-same-origin">
       </iframe>
+      <div class="divider"></div>
+      <!-- Navigation end -->
+<!-- Rating start -->
+<section id="Rating">
+
+  <h2 class="heading">Rating </h2>
+  <h2 class="subheading">5 star rating </h2>
+  <p class="content">You can give rating 1 to 5 </p>
+
+  <div class="component-example">
+    <!-- <section class="section" id="rating-container"> -->
+         <div class="rating-card">
+             <h6 class="subheading">Rate this product </h6>
+             <div class="rating-stars-container">
+                 <div class="star">&#9734</div>
+                 <div class="star">&#9734</div>
+                 <div class="star">&#9734</div>
+                 <div class="star">&#9734</div>
+                 <div class="star">&#9734</div>
+             </div>
+             <p class="current-rating"> 0 out of 5</p>
+             </div>
+             </div>
+    
+ <!-- </section> -->
+
+</section>
+
+<!--End  Rating start -->
+
         <!-- Toast -->
         <div class="divider"></div>
         <div id="Toast">
@@ -622,6 +653,7 @@
             <button class=" btn-danger" onclick="myFunction()">Toast</button>
 
             <div id="snackbar">will disappear in 3 second </div>
+          </div>
           </div>
           <iframe
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522component-example%2520toast-relative%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2520%2520%253Cbutton%2520class%253D%2522%2520btn-danger%2522onclick%253D%2522myFunction%28%29%2522%253EToast%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520id%253D%2522snackbar%2522%253Ewill%2520disappear%2520in%25203%2520second%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
@@ -636,7 +668,7 @@
             <div class="component-example">
               <h1 class="heading">main heading</h1>
               <h2 class="subheading">main heading</h2>
-              <h3 class="content  ">main heading</h3>
+              <h3 class="content">main heading</h3>
               <h4 >main heading</h4>
               <h5>main heading</h5>
               <h6>main heading</h6>
@@ -690,6 +722,7 @@
   <!-- Javascript Code -->
   <script src="./javascript/alert.js"></script>
   <script src="./javascript/button.js"></script>
+  <script src="./javascript/rating.js"></script>
   <script src="./javascript/toast.js"></script>
 
 </body>

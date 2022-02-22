@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Css cheat | Home</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <!-- css including -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/global/navbar.css" />
+   
+
+    <link rel="stylesheet" href="./css/pages/index.css" />
     <!-- Fontasome -->
     <link
       rel="stylesheet"
@@ -19,7 +23,7 @@
   </head>
   <body class="intro-page">
     <!-- Navbar  -->
-    <nav class="nav" id="navbar">
+    <nav class="nav">
       <div class="nav-left">
         <li><a href="./index.html" class="nav-link">Home</a></li>
         <li><a href="./docs.html" class="nav-link">Documentation</a></li>
@@ -38,24 +42,26 @@
       </div>
     </nav>
     <!-- End Navbar  -->
-    <!-- Heading  -->
 
+    <!-- Heading  -->
     <header class="hero-heading">
       <h2 class="heading">Cheet Css</h2>
     </header>
-    <!-- Core  -->
+    <!-- End Heading -->
+
+    <!-- Main   -->
     <main class="main container-fluid">
       <div class="text-container main-heading">
         <h2 class="subheading">Build your UI with bare-mini modifications</h2>
-        <div class="text-sm main-subcontent">
+        <p class="home-content">
           Spend less time on designing UI , focus more on logic side and
           coustomize it using your owm css
-        </div>
+        </p>
       </div>
-      <div class="main-btn btn">
-        <a href="./docs.html" class="nav-btn"> View it</a>
+      <div class="cta">
+        <a href="./docs.html"> <button class="cta-btn">View it</button></a>
       </div>
     </main>
-    <!-- End Core  -->
+    <!-- End Main  -->
   </body>
 </html>

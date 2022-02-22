@@ -56,6 +56,7 @@ iframe {
   object-fit: cover;
   object-position: top center;
   margin: 1rem;
+  /* aspect-ratio: 2/1; */
 }
 
 /*  text responsive  */
@@ -82,9 +83,28 @@ iframe {
   text-align: right;
 }
 
-/* margin */
+/* mostly used css  */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.container-fluid {
+  width: 80%;
+  margin: 0 auto;
+}
+.component-example {
+  margin: 1rem;
+  border: dotted 1px blue;
 
-
+  box-shadow: 4px 3px 3px rgba(25, 34, 29, 0.4);
+}
+/*  */
+.ml-2 {
+  margin-left: 2rem;
+}
+.ml-3 {
+  margin-left: 3rem;
+}
 .mt-1 {
   margin-top: 1rem !important;
 }

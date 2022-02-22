@@ -35,17 +35,19 @@
   border: solid 2px var(--color-wait);
   padding: 0.55rem 1.25rem;
 }
-
+/* link */
 .btn-link {
   text-align: center;
+}
+/* floating */
+.btn-floating {
+  border-radius: 50%;
 }
 /* hover  */
 .btn-space:hover {
   background-color: #207398;
 }
-.btn-floating {
-  border-radius: 50%;
-}
+
 
 .btn-info:hover {
   background-color: skyblue;

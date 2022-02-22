@@ -1,17 +1,21 @@
+/* Global css */
+@import "./css/global/default.css";
+@import "./css/global/var.css";
+@import "./css/global/common.css";
+
+
 /* specefic css  */
-@import "./css/avatar.css";
-@import "./css/badge.css";
-@import "./css/button.css";
-@import "./css/card.css";
-@import "./css/navbar.css";
-@import "./css/toast.css";
-@import "./css/image.css";
-@import "./css/form.css";
-@import "./css/modal.css";
+@import "./css/components/alert.css";
+@import "./css/components/avatar.css";
+@import "./css/components/badge.css";
+@import "./css/components/button.css";
+@import "./css/components/card.css";
+@import "./css/components/form.css";
+@import "./css/components/image.css";
+@import "./css/components/modal.css";
+@import "./css/components/navbar.css";
+@import "./css/components/toast.css";
 
 /* pages */
-@import "./css/docs.css";
-/* Global css */
-@import "./css/var.css";
-@import "./css/core.css";
-@import "./css/common.css";
+@import "./css/pages/docs.css";
+

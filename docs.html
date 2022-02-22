@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Css Cheet | Documentation</title>
   <!-- css included -->
+  <link rel="stylesheet" href="./css/global/navbar.css">
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="./css/alert.css" />
   <!-- Fontawsome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
@@ -16,6 +16,7 @@
 </head>
 
 <body>
+  <!-- navbar  -->
   <nav class="nav nav-fixed" id="navbar">
     <div class="nav-left">
       <li><a href="./index.html" class="nav-link">Home</a></li>
@@ -34,6 +35,7 @@
       </li>
     </div>
   </nav>
+  <!-- navbar end  -->
 
   <div class="docs-area">
     <!-- side navbar -->
@@ -62,6 +64,7 @@
       <h1 class="text-center text-xlg text-green bg-info">
         &#171; Cheet Css &#8715;
       </h1>
+      <!-- alert start -->
       <div id="Alert">
         <section>
           <h2 class="heading">Alert</h2>
@@ -72,7 +75,6 @@
             user's attention without interrupting the user's task.
           </p>
         </section>
-        <div class="divider-mini"></div>
         <section class="component-example">
           <div class="alert alert-danger">A danger alert example</div>
           <div class="alert alert-sucess">A sucess alert</div>
@@ -89,21 +91,18 @@
         <h3 class="subheading"> Alert with close button </h3>
 
         <section class="component-example ">
-          <div class="alert alert-danger" id="alert-danger-hide">
-            <div>
-
-              A sucess alert example</div>
-            <button class="alert-btn" id="alert-danger-btn-close">X</button>
-          </div>
-          <div class="alert alert-danger" id="alert-sucess-hide">
-            <div>
-
-              A sucess alert example</div>
+      
+          <div class="alert alert-info" id="alert-sucess-hide">
+            <p> An info  alert example</p>
             <button id="alert-sucess-btn-close" class="alert-btn">X</button>
+          </div>
+          <div class="alert alert-danger" id="alert-danger-hide">
+            <p > An info  alert example</p>
+            <button id="alert-danger-btn-close" class="alert-btn">X</button>
           </div>
         </section>
       </div>
-
+<!-- alert end  -->
 
       <iframe
         src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520id%253D%2522alert-danger-hide%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253EA%2520sucess%2520alert%2520example%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert-btn%2522%2520id%253D%2522alert-danger-btn-close%2522%2520%253EX%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520id%253D%2522alert-sucess-hide%2522%253E%250A%2520%2520%2520%253Cdiv%253E%2520A%2520sucess%2520alert%2520example%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522alert-sucess-btn-close%2522%2520%2520class%253D%2522alert-btn%2522%2520%253EX%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E"
@@ -112,7 +111,7 @@
       </iframe>
 
       <div class="divider"></div>
-
+<!-- avatar -->
       <div id="Avatar">
         <section>
           <h2 class="heading">Avatar</h2>
@@ -122,7 +121,7 @@
           </p>
           </sec>
           <h3 class="subheading">Avatar with image </h3>
-          <figure class="component-example avatar-flex">
+          <figure class="component-example flex">
             <img class="avatar avatar-lg" src="./assets/avatar/avatar-one.png" alt="avatar-profile-1" />
             <img class="avatar avatar-md" src="./assets/avatar/avatar-one.png" alt="avatar-profile-1" />
             <img class="avatar avatar-sm" src="./assets/avatar/avatar-one.png" alt="avatar-profile-1" />
@@ -137,7 +136,7 @@
 
           <h3 class="subheading">Text Avatar</h3>
           <div class="component-example">
-            <figure class="avatar-flex">
+            <figure class="flex">
               <figure class="avatar-text avatar-lg">G</figure>
               <figure class="avatar-text avatar-md">S</figure>
               <figure class="avatar-text avatar-sm">K</figure>
@@ -145,6 +144,7 @@
             </figure>
           </div>
       </div>
+<!--end avatar -->
 
       <iframe
       src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cfigure%2520class%253D%2522avatar-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522avatar-text%2520avatar-lg%2522%253EG%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522avatar-text%2520avatar-md%2522%253ES%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522avatar-text%2520avatar-sm%2522%253EK%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522avatar-text%2520avatar-xs%2522%253EA%253C%252Ffigure%253E%250A%253C%252Ffigure%253E"
@@ -182,7 +182,7 @@
         <div class="divider-mini"></div>
 
         <h3 class="subheading"> Badge on Icon</h3>
-        <div class="component-example">
+        <div class="component-example ">
           <div class="badge">
             <i class="fab fa-whatsapp fa-3x" aria-hidden="true"></i>
             <span class="badge-sucess badge-icon">300</span>
@@ -199,6 +199,7 @@
       sandbox="allow-scripts allow-same-origin">
     </iframe>
       <div class="divider"></div>
+      <!-- button  -->
       <div id="Button">
         <h2 class="heading">Buttons</h2>
         <h3 class="subheading">Simple Button</h3>
@@ -231,10 +232,10 @@
         <div class="divider-mini"></div>
         <h3 class="subheading">Link Button</h3>
         <div class="component-example flex">
-          <button class="btn btn-outline-success btn-link"> <a href="https://educationrail.com/" target="_blank">
-              Eduction Rail</a> </button>
-          <button class="btn btn-outline-danger btn-link "> <a href="https://trixoon.com/" target="_blank">Main
-              website</a> </button>
+         <a href="https://educationrail.com/" target="_blank" >  <button class="btn btn-info btn-link">              Eduction Rail </button>
+</a> 
+         <a href="https://trixoon.com/" target="_blank" >  <button class="btn btn-outline-success btn-link">          My portfolio</button>
+</a> 
         </div>
         <iframe
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-outline-success%2520btn-link%2522%253E%250A%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Feducationrail.com%252F%2522%2520target%253D%2522_blank%2522%253EEduction%2520Rail%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-danger%2520btn-link%2520%2522%253E%2520%253Ca%2520href%253D%2522https%253A%252F%252Ftrixoon.com%252F%2522%2520target%253D%2522_blank%2522%253EMain%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520website%253C%252Fa%253E%2520%250A%253C%252Fbutton%253E"
@@ -245,8 +246,13 @@
 
         <h3 class="subheading">Icon Button</h3>
         <div class="component-example flex">
-          <button class="btn  btn-space "> <i class="fa-solid fa-cart-arrow-down color-fancy"></i></button>
-          <button class="btn btn-space "> <i class="fa-solid fa-house color-fancy"></i></button>
+          <a href="./index.html"> <button class="btn  btn-space "> <i class="fa-solid fa-cart-arrow-down color-fancy"></i></button>
+        
+        </a>
+          <a href="https://ecom-ui.netlify.app/pages/cart.html"> <button class="btn btn-outline-wait "> <i class="fa-solid fa-house color-fancy"></i></button>
+        
+        </a>
+       
 
 
         </div>
@@ -262,9 +268,10 @@
           <button class="btn btn-sucess btn-floating " id="btn-scroll-up"> <i
               class="fa-solid fa-arrow-up color-fancy "></i></button>
           <button class="btn btn-danger btn-floating " id="btn-scroll-down"> <i
-              class="fa-solid fa-angle-down  "></i></button>
+              class="fa-solid fa-angle-down "></i></button>
         </div>
       </div>
+      <!-- button end  -->
       <iframe
       src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-sucess%2520btn-floating%2520%2522%2520id%253D%2522btn-scroll-up%2522%253E%2520%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-arrow-up%2520color-fancy%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-danger%2520btn-floating%2520%2522%2520id%253D%2522btn-scroll-down%2522%253E%2520%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-angle-down%2520%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E"
       style="width: 654px; height: 291px; border:0; transform: scale(1); overflow:hidden;"
@@ -567,7 +574,7 @@
         <div id="Toast">
           <h2 class="heading">Toast</h2>
           <h3 class="subheading">3 sec toast</h3>
-          <div class="component-example toast-relative ">
+          <div class="component-example toast ">
             <button class=" btn-danger" onclick="myFunction()">Toast</button>
 
             <div id="snackbar">will disappear in 3 second </div>

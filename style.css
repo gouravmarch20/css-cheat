@@ -3,7 +3,6 @@
 @import "./css/global/var.css";
 @import "./css/global/common.css";
 
-
 /* specefic css  */
 @import "./css/components/alert.css";
 @import "./css/components/avatar.css";
@@ -11,6 +10,7 @@
 @import "./css/components/button.css";
 @import "./css/components/card.css";
 @import "./css/components/form.css";
+@import "./css/components/grid.css";
 @import "./css/components/image.css";
 @import "./css/components/modal.css";
 @import "./css/components/navbar.css";
@@ -18,4 +18,3 @@
 
 /* pages */
 @import "./css/pages/docs.css";
-

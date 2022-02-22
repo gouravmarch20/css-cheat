@@ -12,6 +12,7 @@
   margin: 1rem auto;
   background-color: var(--color-text-subheading);
 }
+/* flex  */
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -25,6 +26,8 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* text  */
 .heading {
   color: var(--color-text-blue-heading);
   font-size: 3rem;
@@ -42,9 +45,9 @@
 .content {
   color: var(--color-text-content);
   font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* mostly used css  */
 .container {
   width: 100%;
   margin: 0 auto;
@@ -58,11 +61,4 @@
   margin: 1rem;
   border: dotted 1px blue;
   box-shadow: 4px 3px 3px rgba(25, 34, 29, 0.4);
-}
-.component-image {
-  max-height: 20vh;
-}
-.coder-code-image {
-  max-height: 20vh;
-  object-fit: contain;
 }

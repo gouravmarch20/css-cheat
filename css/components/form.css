@@ -1,59 +1,63 @@
 .input {
   padding: 2rem;
+  margin: 1rem 2rem;
+}
+
+.input-box {
+  margin-left: 2rem;
+}
+.input-label {
+  font-size: 1.2rem;
+  color: var(--color-text-content) !important;
+  margin-left: 2rem;
+  padding-bottom: 0.3rem;
 }
 .input-field {
   padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  margin-left: 0.4rem;
+  margin: 4px 5px;
   border: 2px solid var(--color-text-subheading);
   border-radius: 0.7rem;
+  border-radius: 2px;
+
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-textarea {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  line-height: 1.5;
   outline: none;
 }
 
-.form-input {
-  width: 60%;
-  margin: 1rem auto;
+/* error  */
+.email-error {
+  margin: 2rem;
+  display: inline-block;
+}
+#email-error {
+  padding: 1rem;
   margin-top: 1rem;
   margin-left: 2rem;
 }
-.form-group {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-.form-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.input-name {
-  margin-top: 50px !important;
-  padding: 1rem;
-}
-
-.input-danger {
-  border: 1px solid red;
-  padding: 0.7rem;
-  border-radius: 2rem;
-}
-.input-danger:focus {
-  background-color: #ff6263;
-}
-.input-error-message {
+.input-err-msg {
   color: red;
+  margin: 0;
+  font-size: 0.7rem;
+  margin-left: 4.5rem;
 }
-.input-textarea{
-  display: flex;
-  align-items: center;
-}
-.input-font-default label {
+/* effect */
+.checkbox,
+.radio-btn {
+  margin-bottom: 4px;
+  cursor: pointer;
   font-size: 1.2rem;
-  color: var(--color-text-content) !important;
+  text-color: var(--color-text-subheading);
+  color: #525252;
 }
-
-
-
-.form-btn {
-  background-color: #383cc1;
+.input-field:focus {
+  border: 2px solid var(--color-space);
+  padding: 0.6rem 1rem;
+  transition: all 0.5s;
 }

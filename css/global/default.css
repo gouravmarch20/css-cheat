@@ -75,12 +75,18 @@ iframe {
 
 .text-center {
   text-align: center;
+  color: var(--color-text-content);
+  /* font-size: 1.3rem; */
 }
 .text-left {
   text-align: left;
+  color: var(--color-text-content);
+  font-size: 1.3rem;
 }
 .text-right {
   text-align: right;
+  color: var(--color-text-content);
+  font-size: 1.3rem;
 }
 
 /* mostly used css  */

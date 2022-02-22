@@ -34,6 +34,7 @@
   max-width: 80vw;
   margin-top: 10vh;
 }
+
 iframe {
   overflow: scroll;
   min-width: 60vw;

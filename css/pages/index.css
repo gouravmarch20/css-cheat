@@ -1,11 +1,13 @@
 body {
   background-image: linear-gradient(to left, #e1a2b8, #9f2bc1);
 }
+
 .home-content {
   font-size: 1.3rem;
   color: #242b2e;
   margin-top: 2rem;
 }
+/* cta */
 .cta {
   margin-top: 1rem;
 }

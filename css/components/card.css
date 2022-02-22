@@ -118,9 +118,8 @@
 }
 /* hover  */
 .card:hover {
-  box-shadow: 1px 2px 12px #E03B8B;
+  box-shadow: 1px 2px 12px #e03b8b;
   transition: all 0.8s;
-
 }
 .card-shadow:hover {
   box-shadow: 0px 4px 12px red;
@@ -129,5 +128,4 @@
 .card-horizontal:hover {
   box-shadow: 1px 1px 10px greenyellow;
   transition: all 0.8s;
-
 }

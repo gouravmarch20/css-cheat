@@ -23,6 +23,7 @@
   align-items: center;
 }
 
+/* Coustom sizing */
 .avatar-xs {
   height: 3.2rem;
   width: 3.2rem;

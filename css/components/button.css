@@ -7,16 +7,16 @@
 }
 .btn-danger {
   background-color: var(--color-danger);
+  transition: all 0.7s;
 }
 .btn-success {
   background-color: var(--color-sucess);
-}
-.btn-success:hover {
-  background-color: var(--color-sucess);
+  transition: all 0.7s;
 }
 .btn-space {
   background-color: var(--color-space);
 }
+/*  outline  btn */
 .btn-outline-success {
   font-weight: bold;
   color: var(--color-success);
@@ -35,33 +35,40 @@
   border: solid 2px var(--color-wait);
   padding: 0.55rem 1.25rem;
 }
-.btn-outline-success:hover {
-  background-color: var(--color-sucess);
-}
-.btn-outline-wait:hover {
-  background-color: var(--color-wait);
-}
-.btn-outline-danger:hover {
-  background-color: var(--color-danger);
-}
 
 .btn-link {
   text-align: center;
-  border: 3px solid blue;
-  color: blueviolet !important;
 }
-.color-fancy {
-  color: var(--color-fancy);
-}
-.color-fancy:hover {
-  color: black;
-}
+/* hover  */
 .btn-space:hover {
   background-color: #207398;
 }
 .btn-floating {
   border-radius: 50%;
 }
+
+.btn-info:hover {
+  background-color: skyblue;
+  transition: all 0.7s;
+}
+.btn-success:hover {
+  background-color: greenyellow;
+  transition: all 0.7s;
+}
+
+.btn-outline-success:hover {
+  background-color: var(--color-sucess);
+  color: blanchedalmond;
+  transition: all 0.7s;
+}
+.btn-outline-wait:hover {
+  background-color: var(--color-wait);
+  transition: all 0.7s;
+}
+.btn-outline-danger:hover {
+  background-color: var(--color-danger);
+  transition: all 0.7s;
+}
 .btn-floating:hover {
-  background-color: blue;
+  background-color: var(--color-space);
 }

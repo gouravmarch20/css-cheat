@@ -1,15 +1,16 @@
+
+/* mostly used css  */
+
 .divider {
   height: 2px;
   width: 80%;
   margin: 2rem auto;
-
   background-color: var(--color-text-content);
 }
 .divider-mini {
   height: 1px;
   width: 70%;
   margin: 1rem auto;
-
   background-color: var(--color-text-subheading);
 }
 .flex {
@@ -18,6 +19,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -29,6 +31,10 @@
   font-size: 3rem;
   text-align: center;
 }
+.hero-heading {
+  margin-top: 10vh;
+  margin-bottom: 1rem;
+}
 .subheading {
   color: #207398;
   font-weight: bold;
@@ -36,13 +42,30 @@
 }
 .content {
   color: var(--color-text-content);
-  /* background-color: red; */
+}
+
+
+
+/* mostly used css  */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.container-fluid {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.component-example {
+  margin: 1rem;
+  border: dotted 1px blue;
+  box-shadow: 4px 3px 3px rgba(25, 34, 29, 0.4);
 }
 .component-image {
   max-height: 20vh;
 }
 .coder-code-image {
   max-height: 20vh;
-
   object-fit: contain;
 }
+

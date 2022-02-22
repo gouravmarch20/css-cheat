@@ -1,24 +1,6 @@
-.component-model {
-  height: 300px !important;
-}
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrapper a {
-  display: inline-block;
-  padding: 15px;
-}
-#modalbox {
-}
-.component-modal {
-}
-.modal-content {
-}
+
 .modal {
   position: relative;
-
   top: 0;
   bottom: 0;
   right: 0;
@@ -26,6 +8,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 300px;
+  flex-direction: column;
   transition: all 0.4s;
   visibility: hidden;
   width: 60%;

@@ -1,19 +1,22 @@
-.toast-relative {
+.toast {
   position: relative;
+  display: flex;
+  flex-direction: row;
 }
 
 #snackbar {
   visibility: hidden;
-
-  background-color: black;
+  background-color: #E5D68A;
   border-radius: 1px;
-  padding: 3rem;
-  position:   absolute;
+  padding: 1rem;
+  position: absolute;
   z-index: 1;
   font-weight: 900;
   top: 30;
-  left: 30;
+  left: 40%;
+  margin: 1rem auto;
   color: white;
+  font-size: 1.5rem;
 }
 #snackbar.show {
   visibility: visible;

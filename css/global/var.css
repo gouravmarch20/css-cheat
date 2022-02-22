@@ -17,15 +17,27 @@
   --color-text-blue-heading: #3944f7;
   --color-text-blue-subheading: #12b0e8;
 }
+/* text color  */
 .text-green {
   color: var(--color-text-green);
 }
-
 .text-blue-subheading {
   color: var(--color-text-blue-subheading);
 }
-.bg-info {
-  /* background-color: #46B2E0; */
-  color: var(--color-text-green);
+.color-fancy {
+  color: var(--color-fancy);
 }
 
+
+
+/* background  */
+
+.bg-light{
+  background-color: #CAD5E2;
+}
+
+
+/* hover  */
+.color-fancy:hover {
+  color: black;
+}

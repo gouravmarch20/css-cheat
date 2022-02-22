@@ -1,11 +1,11 @@
 .alert {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 90%;
   padding: 1rem;
-
   margin: 1rem auto;
-  border-radius: 7px;
+  border-radius: 5px;
   font-weight: bold;
 }
 .alert-danger {
@@ -20,9 +20,7 @@
 .alert-wait {
   background-color: var(--color-wait);
 }
-#alert-sucess-hide {
-  background-color: var(--color-sucess);
-}
+
 .alert-btn{
   background-color: var(--color-space);
 }

@@ -1,0 +1,25 @@
+body {
+  background-image: linear-gradient(to left, #e1a2b8, #9f2bc1);
+}
+.home-content {
+  font-size: 1.3rem;
+  color: #242b2e;
+  margin-top: 2rem;
+}
+.cta {
+  margin-top: 1rem;
+}
+.cta-btn {
+  background-color: #ef5354;
+}
+.nav-btn:hover {
+  padding: 1rem;
+  color: transparent;
+}
+@media (min-width: 768px) {
+  .home-content {
+    margin-top: 15vh;
+    width: 70%;
+    margin: 0 auto;
+  }
+}

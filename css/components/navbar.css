@@ -1,0 +1,39 @@
+.navbar-classic {
+  height: 10vh;
+  background-color: #cad5e2;
+  display: flex;
+  width: 80%;
+  margin: 1rem auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.nav-classic-right {
+  margin-left: auto;
+}
+.nav-btn {
+  background-color: red;
+  padding: 1rem 1.2rem;
+  background-color: greenyellow;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 1rem;
+  border: none;
+}
+/* hover effect */
+
+.nav-classic-left > a:hover {
+  color: #e21717;
+  background-color: #02b290;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  transition: all 1s;
+}
+
+.nav-classic-right > a:hover {
+  color: #e21717;
+  background-color: #02b290;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  transition: all 1s;
+}

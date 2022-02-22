@@ -9,6 +9,7 @@
   border-radius: 0.7rem;
   outline: none;
 }
+
 .form-input {
   width: 60%;
   margin: 1rem auto;
@@ -27,13 +28,10 @@
   align-items: center;
 }
 .input-name {
-  /* background-color:red; */
   margin-top: 50px !important;
   padding: 1rem;
 }
-.form-btn {
-  background-color: #383cc1;
-}
+
 .input-danger {
   border: 1px solid red;
   padding: 0.7rem;
@@ -45,16 +43,17 @@
 .input-error-message {
   color: red;
 }
-
+.input-textarea{
+  display: flex;
+  align-items: center;
+}
 .input-font-default label {
   font-size: 1.2rem;
   color: var(--color-text-content) !important;
 }
-.input-textarea{
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-}
-.bg-light{
-  background-color: lightblue;
+
+
+
+.form-btn {
+  background-color: #383cc1;
 }

@@ -36,6 +36,8 @@
 }
 iframe {
   overflow: scroll;
-  max-width: 20vw;
-  max-height: 40vh;
+  min-width: 60vw;
+  max-width: 70vw;
+  min-height: 30vh;
+  max-height: 35vh;
 }

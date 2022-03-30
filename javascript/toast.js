@@ -1,7 +1,6 @@
 myFunction = () => {
-    var x = document.getElementById("snackbar");
+    var toast = document.getElementById("snackbar");
+    toast.className = "show";
 
-    x.className = "show";
-
-    setTimeout(function () { x.className = x.className.replace("show", ""); }, 2000);
+    setTimeout(function () { toast.className = toast.className.replace("show", ""); }, 2000);
 }

@@ -12,7 +12,7 @@
   margin: 2rem auto;
   background-color: white;
 }
-
+/* common use in card */
 .card-title {
   font-weight: bolder;
   text-align: center;
@@ -78,7 +78,7 @@
   margin: 2rem auto;
   background-color: white;
 }
-/* badge  */
+/* card badge  */
 .card-deteils {
   display: flex;
   flex-direction: column;

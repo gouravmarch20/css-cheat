@@ -59,7 +59,7 @@
   font-size: 1.4rem;
   font-family: serif;
 }
-
+/* layout */
 .container {
   width: 100%;
   margin: 0 auto;
@@ -74,7 +74,7 @@
   border: dotted 1px blue;
   box-shadow: 4px 3px 3px rgba(25, 34, 29, 0.4);
 }
-/* text  */
+/* text property */
 .text-center {
   text-align: center;
   font-family: serif;

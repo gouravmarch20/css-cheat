@@ -1,5 +1,15 @@
 .btn {
-  margin: 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 900;
+
+  padding: 14px 16px;
+  text-align: center;
 }
 
 .btn-info {
@@ -10,7 +20,8 @@
   transition: all 0.7s;
 }
 .btn-success {
-  background-color: var(--color-sucess);
+  background-color: #02b290;
+
   transition: all 0.7s;
 }
 .btn-space {
@@ -19,19 +30,19 @@
 /*  outline  btn */
 .btn-outline-success {
   font-weight: bold;
-  color: var(--color-success);
+  color: var(--color-sucess);
   border: solid 2px var(--color-sucess);
   padding: 0.55rem 1.25rem;
 }
 .btn-outline-danger {
   font-weight: bold;
-  color: var(--color-success);
+  color: var(--color-danger);
   border: solid 2px var(--color-danger);
   padding: 0.55rem 1.25rem;
 }
 .btn-outline-wait {
   font-weight: bold;
-  color: var(--color-space);
+  color: var(--color-wait);
   border: solid 2px var(--color-wait);
   padding: 0.55rem 1.25rem;
 }
@@ -53,23 +64,26 @@
   transition: all 0.7s;
 }
 .btn-success:hover {
-  background-color: greenyellow;
+  background-color: #50dbb4;
+  transition: all 0.7s;
+}
+.btn-danger:hover {
+  background-color: #ef5354;
   transition: all 0.7s;
 }
 
 .btn-outline-success:hover {
   background-color: var(--color-sucess);
-  color: blanchedalmond;
+  color: white;
   transition: all 0.7s;
 }
 .btn-outline-wait:hover {
   background-color: var(--color-wait);
   transition: all 0.7s;
+  color: white;
 }
 .btn-outline-danger:hover {
   background-color: var(--color-danger);
   transition: all 0.7s;
-}
-.btn-floating:hover {
-  background-color: var(--color-space);
+  color: white;
 }

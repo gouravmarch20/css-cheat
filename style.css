@@ -1,5 +1,5 @@
 /* Global css */
-@import "./css/global/default.css";
+@import "./css/global/reset.css";
 @import "./css/global/var.css";
 @import "./css/global/common.css";
 

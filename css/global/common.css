@@ -1,5 +1,12 @@
 /* mostly used css  */
-
+.iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+  object-position: top center;
+  margin: 1.5rem;
+}
+/* ! loading="lazy" */
 .divider {
   height: 2px;
   width: 80%;
@@ -29,23 +36,29 @@
 
 /* text  */
 .heading {
-  color: var(--color-text-blue-heading);
+  color: var(--color-info);
+  text-shadow: 0px 1px 1px#51E1ED;
+
   font-size: 3rem;
+  font-family: "DM Sans", sans-serif;
+  margin: 0 1rem;
   text-align: center;
 }
-.hero-heading {
-  margin-top: 10vh;
-  margin-bottom: 1rem;
-}
+
 .subheading {
-  color: #207398;
-  font-weight: bold;
+  color: #3944f7;
+  font-weight: 800;
   font-size: 2rem;
+  margin: 1rem;
+  text-align: center;
+  font-family: monospace;
 }
 .content {
+  width: 80%;
+  margin: 1rem auto;
   color: var(--color-text-content);
-  font-size: 1.5rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  font-family: serif;
 }
 
 .container {
@@ -61,4 +74,29 @@
   margin: 1rem;
   border: dotted 1px blue;
   box-shadow: 4px 3px 3px rgba(25, 34, 29, 0.4);
+}
+/* text  */
+.text-center {
+  text-align: center;
+  font-family: serif;
+  color: var(--color-text-content);
+  font-weight: 600;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-xlg {
+  font-size: 3rem;
+}
+.text-lg {
+  font-size: 2em;
+}
+.text-sm {
+  font-size: 1em;
+}
+.text-md {
+  font-size: 1.5em;
 }

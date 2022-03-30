@@ -45,17 +45,17 @@
 
         <li><a href="#Avatar">Avatar</a></li>
         <li><a href="#Badge">Badge</a></li>
-        <li><a href="#Button">Buttons</a></li>
+        <li><a href="#Button">Button</a></li>
         <li><a href="#Card">Card</a></li>
         <li><a href="#Input">Input</a></li>
         <li><a href="#Grid">Grid</a></li>
         <li><a href="#Image">Image</a></li>
         <li><a href="#List">List</a></li>
         <li><a href="#Modal">Modal</a></li>
-        <li><a href="#Navigation">Navigation</a></li>
+        <li><a href="#Navigation">Navbar</a></li>
         <li><a href="#Rating">Rating</a></li>
         <li><a href="#Toast">Toast</a></li>
-        <li><a href="#Utilities">Utilities</a></li>
+        <li><a href="#Utilities">Utility</a></li>
         <div class="divider"></div>
 
       </ul>
@@ -64,8 +64,8 @@
     <!-- components -->
 
     <section class="component-area">
-      <h1 class="text-center text-xlg text-green bg-info">
-        &#171; Cheet Css &#8715;
+      <h1 class="core-heading">
+        <span class="core-heading-span">&#171;</span> Cheet Css &#8715;
       </h1>
       <!-- alert start -->
       <div id="Alert">
@@ -83,10 +83,10 @@
           </div>
           <div class="alert alert-wait">A warning alert example!!!</div>
         </section>
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253EA%2520danger%2520alert%2520example%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-sucess%2522%253EA%2520sucess%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%2520A%2520inforamtion%2520alert%2520example%21%21%21%21%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-wait%2522%253EA%2520warning%2520alert%2520example%21%21%21%253C%252Fdiv%253E"
-          style="width: 654px; height: 239px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
+        <iframe class="iframe"
+          src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253EA%2520danger%2520alert%2520example%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-sucess%2522%253EA%2520sucess%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%2520A%2520inforamtion%2520alert%2520example%21%21%21%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-wait%2522%253EA%2520warning%2520alert%2520example%21%21%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520"
+          style="width: 724px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
         </iframe>
         <div class="divider-mini"></div>
         <h3 class="subheading"> Alert with close button </h3>
@@ -95,17 +95,19 @@
 
           <div class="alert alert-info" id="alert-sucess-hide">
             <p> An info alert example</p>
-            <button id="alert-sucess-btn-close" class="alert-btn">X</button>
+            <button id="alert-sucess-btn-close" class="alert-btn">&#10007;
+            </button>
           </div>
           <div class="alert alert-danger" id="alert-danger-hide">
             <p> An info alert example</p>
-            <button id="alert-danger-btn-close" class="alert-btn">X</button>
+            <button id="alert-danger-btn-close" class="alert-btn">&#10007;
+            </button>
           </div>
         </section>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%2520id%253D%2522alert-sucess-hide%2522%253E%250A%2520%2520%2520%253Cp%253E%2520An%2520info%2520alert%2520example%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520id%253D%2522alert-sucess-btn-close%2522%2520class%253D%2522alert-btn%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%250A%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520id%253D%2522alert-danger-hide%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%2520An%2520info%2520alert%2520example%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522alert-danger-btn-close%2522%2520class%253D%2522alert-btn%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E"
-          style="width: 654px; height: 326px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
+          src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%2520id%253D%2522alert-sucess-hide%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%253E%2520An%2520info%2520alert%2520example%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522alert-sucess-btn-close%2522%2520class%253D%2522alert-btn%2522%253E%2526%252310007%253B%250A%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520id%253D%2522alert-danger-hide%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%253E%2520An%2520info%2520alert%2520example%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522alert-danger-btn-close%2522%2520class%253D%2522alert-btn%2522%253E%2526%252310007%253B%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+          style="width: 714px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
         </iframe>
       </div>
       <!-- alert end  -->
@@ -127,9 +129,9 @@
           <img class="avatar avatar-xs" src="./assets/avatar/avatar-one.png" alt="avatar-profile-1" />
         </figure>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522.%252Fassets%252Favatar%252Favatar-one.png%2522%2520alt%253D%2522avatar-profile-1%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522.%252Fassets%252Favatar%252Favatar-one.png%2522%2520alt%253D%2522avatar-profile-1%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522.%252Fassets%252Favatar%252Favatar-one.png%2522%2520alt%253D%2522avatar-profile-1%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-xs%2522%2520src%253D%2522.%252Fassets%252Favatar%252Favatar-one.png%2522%2520alt%253D%2522avatar-profile-1%2522%2520%252F%253E"
-          style="width: 838px; height: 239px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
+          src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xs%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253E"
+          style="width: 546px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
         </iframe>
         <div class="divider-mini"></div>
 
@@ -143,9 +145,9 @@
           </figure>
         </div>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522avatar-text%2520avatar-lg%2522%253EG%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522avatar-text%2520avatar-md%2522%253ES%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522avatar-text%2520avatar-sm%2522%253EK%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522avatar-text%2520avatar-xs%2522%253EA%253C%252Ffigure%253E"
-          style="width: 486px; height: 239px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
+          src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522avatar-text%2520avatar-lg%2522%253EG%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522avatar-text%2520avatar-md%2522%253ES%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522avatar-text%2520avatar-sm%2522%253EK%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522avatar-text%2520avatar-xs%2522%253EA%253C%252Ffigure%253E"
+          style="width: 554px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
         </iframe>
       </div>
       <!--end avatar -->
@@ -166,32 +168,39 @@
             <img class="avatar avatar-sm " src="./assets/avatar/avatar-three.png" alt="avatar-profile-1" />
             <span class="badge-status badge-online"></span>
           </figure>
+          <figure class="badge">
+            <img class="avatar avatar-sm " src="./assets/avatar/avatar-three.png" alt="avatar-profile-1" />
+            <span class="badge-status badge-ideal"></span>
+          </figure>
         </section>
 
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2520%2522%2520src%253D%2522.%252Fassets%252Favatar%252Favatar-one.png%2522%2520alt%253D%2522avatar-profile-1%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522badge-status%2520badge-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2520%2522%2520src%253D%2522.%252Fassets%252Favatar%252Favatar-three.png%2522%2520alt%253D%2522avatar-profile-1%2522%2520%252F%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-status%2520badge-online%2522%253E%253C%252Fspan%253E%250A%253C%252Ffigure%253E"
-          style="width: 878px; height: 308px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
+          src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cfigure%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2520%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520badge-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2520%2522%2520src%253D%2522.%252Fassets%252Favatar%252Favatar-three.png%2522%2520alt%253D%2522avatar-profile-1%2522%2520%252F%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520badge-online%2522%253E%253C%252Fspan%253E%250A%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2520%2522%2520src%253D%2522...%2522%2520alt%253D%2522..%2522%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520badge-ideal%2522%253E%253C%252Fspan%253E%250A%2520%253C%252Ffigure%253E"
+          style="width: 976px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
         </iframe>
 
         <div class="divider-mini"></div>
 
         <h3 class="subheading"> Badge on Icon</h3>
         <section class="component-example ">
-          <div class="badge">
+          <div class="badge-icon">
             <i class="fab fa-whatsapp fa-3x" aria-hidden="true"></i>
-            <span class="badge-sucess badge-icon">300</span>
+            <span class="badge-icon-text badge-icon-sucess ">300</span>
           </div>
-          <div class="badge">
+          <div class="badge-icon">
             <i class="fab fa-instagram fa-3x" aria-hidden="true"></i>
-            <span class="badge-icon badge-danger">10</span>
+            <span class="badge-icon-text ">10</span>
           </div>
-
+          <div class="badge-icon">
+            <i class="fa fa-bell fa-3x" aria-hidden="true"></i>
+            <span class="badge-icon-text badge-icon-info">4</span>
+          </div>
         </section>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fab%2520fa-whatsapp%2520fa-3x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-sucess%2520badge-icon%2522%253E300%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fab%2520fa-instagram%2520fa-3x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-icon%2520badge-danger%2522%253E10%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-          style="width: 574px; height: 308px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
+          src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522fab%2520fa-whatsapp%2520fa-3x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-text%2520badge-icon-sucess%2520%2522%253E300%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-instagram%2520fa-3x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-text%2520%2522%253E10%253C%252Fspan%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522fa%2520fa-bell%2520fa-3x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-text%2520badge-icon-info%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+          style="width: 681px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
         </iframe>
       </div>
       <!-- End badge -->
@@ -232,42 +241,44 @@
           <a href="https://educationrail.com/" target="_blank"> <button class="btn btn-info btn-link"> Eduction Rail
             </button>
           </a>
-          <a href="https://trixoon.com/" target="_blank"> <button class="btn btn-outline-success btn-link"> My
+          <a href="https://trixoon.com/" target="_blank"> <button class="btn btn-outline-success "> My
               portfolio</button>
           </a>
         </div>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522https%253A%252F%252Feducationrail.com%252F%2522%2520target%253D%2522_blank%2522%253E%2520%253Cbutton%2520class%253D%2522btn%2520btn-info%2520btn-link%2522%253E%2520Eduction%2520Rail%2520%253C%252Fbutton%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522https%253A%252F%252Ftrixoon.com%252F%2522%2520target%253D%2522_blank%2522%253E%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-success%2520btn-link%2522%253E%2520Myportfolio%253C%252Fbutton%253E%250A%253C%252Fa%253E"
-          style="width: 681px; height: 274px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
+          src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%253E%2520%253Cbutton%2520class%253D%2522btn%2520btn-info%2520btn-link%2522%253E%2520%2520%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%253E%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-success%2522%253E%2520%253C%252Fbutton%253E%253C%252Fa%253E"
+          style="width: 858px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
         </iframe>
         <div class="divider-mini"></div>
 
         <h3 class="subheading">Icon Button</h3>
         <div class="component-example flex">
-          <a href="./index.html"> <button class="btn  btn-space "> <i
-                class="fa-solid fa-cart-arrow-down color-fancy"></i></button>
-
+          <a href="./index.html"> 
+            <button class="btn  btn-space ">
+              <i class="fa-solid fa-cart-arrow-down color-fancy"></i>
+            </button>
           </a>
-          <a href="https://ecom-ui.netlify.app/pages/cart.html"> <button class="btn btn-outline-wait "> <i
-                class="fa-solid fa-house color-fancy"></i></button>
-
+          <a href="https://ecom-ui.netlify.app/pages/cart.html">
+             <button class="btn btn-outline-wait ">
+                <i class="fa-solid fa-house color-fancy"></i>
+            </button>
           </a>
 
 
 
         </div>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ca%2520href%253D%2522.%252Findex.html%2522%253E%2520%253Cbutton%2520class%253D%2522btn%2520%2520btn-space%2520%2522%253E%2520%253Ci%2520class%253D%2522fa-solid%2520fa-cart-arrow-down%2520color-fancy%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fa%253E%250A%250A%253Ca%2520href%253D%2522https%253A%252F%252Fecom-ui.netlify.app%252Fpages%252Fcart.html%2522%253E%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-wait%2520%2522%253E%2520%253Ci%250Aclass%253D%2522fa-solid%2520fa-house%2520color-fancy%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fa%253E"
-          style="width: 1024px; height: 257px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin " loading="lazy">
-        </iframe>
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ca%2520href%253D%2522.%252Findex.html%2522%253E%2520%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520btn-space%2520%2522%253E%250A%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fa-solid%2520fa-cart-arrow-down%2520color-fancy%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522https%253A%252F%252Fecom-ui.netlify.app%252Fpages%252Fcart.html%2522%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-outline-wait%2520%2522%253E%250A%2520%2509%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-house%2520color-fancy%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fbutton%253E%250A%253C%252Fa%253E"
+  style="width: 480px; height: 447px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+   
         <div class="divider-mini"></div>
         <h3 class="subheading"> Floating Button</h3>
 
         <div class="component-example flex">
-          <button class="btn btn-sucess btn-floating " id="btn-scroll-up"> <i
-              class="fa-solid fa-arrow-up color-fancy "></i></button>
+          <button class="btn btn-info btn-floating " id="btn-scroll-up"> <i class="fa-solid fa-arrow-up "></i></button>
           <button class="btn btn-danger btn-floating " id="btn-scroll-down"> <i
               class="fa-solid fa-angle-down "></i></button>
         </div>
@@ -282,108 +293,167 @@
       <div class="divider"></div>
       <!-- Card  -->
       <div id="Card">
+
         <h2 class="heading">Card </h2>
         <p class="content">Cards are means of displaying content composed of different types of objects like photos with
           captions of variable length , card having buy now like option , info card , testimonial card</p>
 
         <h3 class="subheading">Card with text only</h3>
-        <section class="card text-card flex  component-example">
-          <h5 class="card-title">Heading</h5>
-          <p class="card-subtitle">Sub-Heading</p>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur. Dolorum atque aspernatur
-            in soluta beatae debitis ad illo sed id velit?
-          </p>
+        <section class="component-example">
+          <div class="card-with-text">
+
+            <h5 class="card-title">Heading</h5>
+            <p class="card-subtitle">Sub-Heading</p>
+            <p class="card-content">
+              Lorem ipsum dolor sit amet, consectetur. Dolorum atque aspernatur
+              in soluta beatae debitis ad illo sed id velit?
+            </p>
+          </div>
         </section>
 
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522card%2520text-card%2520flex%2520%2520component-example%2522%253E%250A%2520%2520%2520%253Ch5%2520class%253D%2522card-title%2522%253EHeading%253C%252Fh5%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253ESub-Heading%253C%252Fp%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur.%2520Dolorum%2520atque%2520aspernatur%250A%2520%2520%2520in%2520soluta%2520beatae%2520debitis%2520ad%2520illo%2520sed%2520id%2520velit%253F%250A%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fsection%253E"
-          style="width: 646px; height: 308px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin " loading="lazy">
-        </iframe>
+        src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-with-text%2522%253E%250A%2509%253Ch5%2520class%253D%2522card-title%2522%253EHeading%253C%252Fh5%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253ESub-Heading%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+        style="width: 480px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
         <div class="divider-mini"></div>
 
         <h3 class="subheading">Card with Badge</h3>
-        <section class="card card-relative component-example">
-          <div>
-            <img class="card-image" src="./assets/card/food-two.jpg" alt="" />
-          </div>
-          <div class="card-badge">TRENDING</div>
+        <section class="component-example">
 
-          <div class="card-body">
-            <h5 class="card-title">Pomegranate</h5>
-            <p class="card-text">Fruit</p>
-            <span> ₹
-              534</span>
-          </div>
+          <div class="card">
 
-          <button class="btn-danger">ADD TO CART</button>
+
+            <img class="card-image" src="./assets/card/book.webp" alt="" />
+            <div class="card-deteils">
+              <h3>Deep work </h3>
+              <p class="card-content"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a quasi autem.
+              </p>
+              <div class="card-pricing-detail"> <span class="card-price"> ₹ 543 </span> <span class="card-price-mrp">
+                  <del>₹ 600</del> </span> <span class="card-disount"> 43%</span></div>
+
+            </div>
+
+            <div class="card-button">
+              <button class=" btn btn-danger"> <i class="fa fa-shopping-cart fa-1x" aria-hidden="true"></i> Add to cart
+              </button>
+              <button class="btn btn-info"> <i class="fa-solid fa-circle-info"></i> View detail </button>
+            </div>
+            <div class="card-badge">TRENDING</div>
+
+          </div>
         </section>
 
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522card%2520card-relative%2520component-example%2522%253E%250A%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522.%252Fassets%252Fcard%252Ffood-two.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ETRENDING%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522card-title%2522%253EPomegranate%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253EFruit%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2520%25E2%2582%25B9534%253C%252Fspan%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-danger%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%253C%252Fsection%253E"
-          style="width: 694px; height: 430px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
-        </iframe>
+        src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522.%252Fassets%252Fcard%252Fbook.webp%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-deteils%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EDeep%2520work%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-pricing-detail%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cspan%2520class%253D%2522card-price%2522%253E%2520%25E2%2582%25B9%2520543%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-price-mrp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdel%253E%25E2%2582%25B9%2520600%253C%252Fdel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-disount%2522%253E%252043%2525%253C%252Fspan%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520btn%2520btn-danger%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520fa-1x%2522%2520aria-hidden%253D%2522true%2522%253E%2509%2509%2509%2509%2509%253C%252Fi%253E%2520Add%2520to%2520cart%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253E%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-info%2522%253E%253C%252Fi%253E%2520View%2520detail%2520%2509%2509%2509%2509%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ETRENDING%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+        style="width: 1024px; height: 577px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+        <div class="divider-mini"></div>
+        <h3 class="subheading">Card with dismiss </h3>
+        <section class="component-example">
 
+          <div class="card">
+
+
+            <img class="card-image" src="./assets/card/book.webp" alt="" />
+            <div class="card-deteils">
+              <h3>Deep work </h3>
+              <p class="card-content"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a quasi autem.
+              </p>
+              <div class="card-pricing-detail"> <span class="card-price"> ₹ 543 </span> <span class="card-price-mrp">
+                  <del>₹ 600</del> </span> <span class="card-disount"> 43%</span></div>
+
+            </div>
+
+            <div class="card-button">
+              <button class=" btn btn-danger"> <i class="fa fa-shopping-cart fa-1x" aria-hidden="true"></i> Add to cart
+              </button>
+              <button class="btn btn-info"> <i class="fa-solid fa-circle-info"></i> View detail </button>
+            </div>
+            <div class="card-badge">TRENDING</div>
+            <div class="card-dismiss-btn">&#10007;</div>
+
+          </div>
+        </section>
+
+
+    
+   
         <div class="divider-mini"></div>
 
-        <h3 class="subheading">Card Dismiss</h3>
-        <section class="card  component-example card-relative ">
-          <p class="text-overlay">Out Of Stock !!! </p>
-          <div class="card-disabled">
+        <h3 class="subheading"> Card with text overlay
+        </h3>
+        <section class="component-example">
+          <div class="card">
 
-            <img class="card-image" src="/assets/card/pepsi.jpg" alt="Food Image" />
-            <p class="card-subtitle">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
-              nihil tempora alias?
-            </p>
+            <p class="text-overlay">Out Of Stock !!! </p>
+            <div class="card-disabled">
+
+              <img class="card-image" src="/assets/card/book.webp" alt="Food Image" />
+              <p class="card-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
+                nihil tempora alias?
+              </p>
+              <div class="card-pricing-detail"> <span class="card-price"> ₹ 543 </span> <span class="card-price-mrp">
+                  <del>₹ 600</del> </span> <span class="card-disount"> 43%</span></div>
+
+            </div>
             <div class="card-footer">
-              <a href="#"> <i class="fas fa-shopping-cart fa-2x"></i></a>
-              <a href="#"> <i class="fa-solid fa-credit-card fa-2x"></i></a>
+              <a href="#" class="card-link"> <i class="fas fa-shopping-cart fa-2x"></i></a>
+              <a href="#" class="card-link"> <i class="fa-solid fa-credit-card fa-2x"></i></a>
             </div>
           </div>
         </section>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Csection%2520class%253D%2522card%2520%2520component-example%2520card-relative%2520%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-overlay%2522%253EOut%2520Of%2520Stock%2520%21%21%21%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-disabled%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%252Fassets%252Fcard%252Fpepsi.jpg%2522%2520alt%253D%2522Food%2520Image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipisicing%2520elit.%2520Eos%250A%2520%2520%2520%2520%2520%2520%2520%2520nihil%2520tempora%2520alias%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2509%253Ca%2520href%253D%2522%2523%2522%253E%2520%253Ci%2520class%253D%2522fa-solid%2520fa-credit-card%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fsection%253E"
-          style="width: 734px; height: 412px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
-        </iframe>
+        src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-deteils%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EDeep%2520work%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%2520%253C%252Fp%253E%250A%2509%253Cdiv%2520class%253D%2522card-pricing-detail%2522%253E%2520%250A%2509%2509%253Cspan%2520class%253D%2522card-price%2522%253E%2520%25E2%2582%25B9%2520543%2520%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522card-price-mrp%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdel%253E%25E2%2582%25B9%2520600%253C%252Fdel%253E%2520%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522card-disount%2522%253E%252043%2525%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520btn%2520btn-danger%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520fa-1x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253E%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-info%2522%253E%253C%252Fi%253E%2520View%2520detail%2520%253C%252Fbutton%253E%250A%2509%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ETRENDING%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-dismiss-btn%2522%253E%2526%252310007%253B%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+        style="width: 1024px; height: 561px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
         <div class="divider-mini"></div>
 
         <h3 class="subheading">Card with shadow</h3>
-        <div class="card-shadow text-card">
+        <div class="card-shadow ">
           <h5 class="card-title">Heading</h5>
           <p class="card-subtitle">Sub-Heading</p>
-          <p class="card-text-glow">
+          <p class="card-content">
             Lorem ipsum dolor sit amet, consectetur. Dolorum atque aspernatur
             in soluta beatae debitis ad illo sed id velit?
           </p>
         </div>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-shadow%2520text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522card-title%2522%253EHeading%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2522%253ESub-Heading%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text-glow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur.%2520Dolorum%2520atque%2520aspernatur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520in%2520soluta%2520beatae%2520debitis%2520ad%2520illo%2520sed%2520id%2520velit%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
-          style="width: 718px; height: 326px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
-        </iframe>
+        src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-shadow%2520%2522%253E%250A%2520%2509%2520%253Ch5%2520class%253D%2522card-title%2522%253EHeading%253C%252Fh5%253E%250A%2509%2520%253Cp%2520class%253D%2522card-subtitle%2522%253ESub-Heading%253C%252Fp%253E%250A%2509%2520%2520%253Cp%2520class%253D%2522card-content%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+        style="width: 530px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
         <div class="divider-mini"></div>
 
         <h3 class="subheading">Horizontal card</h3>
+
         <div class="card-horizontal ">
-          <div>
-            <img class="horizontal-img" src="/assets/card/itc.jpg" />
-          </div>
+          <img class="card-image-horizontal" src="/assets/card/itc.jpg" />
           <div class="card-horizontal-content">
 
-            <p class="card-horizontal-title">ITC</p>
-            <p class="card-horizontal-subtitle">₹ 229</p>
-            <a href="#"><i class="fa fa-share-alt card-horizontal-icon"></i></a>
+            <p class="card-title">ITC</p>
+            <p class="card-price">₹ 229</p>
+            <div class="card-button">
+              <button class="  card-horizontal-btn"> <i class="fa fa-shopping-cart fa-1x" aria-hidden="true"></i> Add to
+                cart </button>
+              <button class=" card-horizontal-btn btn-info"> <i class="fa-solid fa-circle-info"></i> View detail
+              </button>
+            </div>
+            <a href="#"><i class="fa fa-share-alt card-horizontal-share"></i></a>
           </div>
         </div>
+
+        <div class="divider-mini"></div>
+
+
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2520%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522horizontal-img%2522%2520src%253D%2522%252Fassets%252Fcard%252Fitc.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-content%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-horizontal-title%2522%253EITC%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-horizontal-subtitle%2522%253E%25E2%2582%25B9%2520229%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520card-horizontal-icon%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
-          style="width: 694px; height: 360px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
-        </iframe>
+  src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image-horizontal%2522%2520src%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2522%253EITC%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-price%2522%253E%25E2%2582%25B9%2520229%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520%2520card-horizontal-btn%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520fa-1x%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%2520Add%2520to%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520cart%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520card-horizontal-btn%2520btn-info%2522%253E%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-info%2522%253E%253C%252Fi%253E%2520View%2520detail%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520card-horizontal-share%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 1024px; height: 465px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
       </div>
       <!-- End Card  -->
       <div class="divider"></div>
@@ -552,23 +622,35 @@
         <h3 class="subheading">Responsive Image </h3>
         <div class="component-example">
 
+          <div>
 
-          <img src="./assets/image/responsive.png" class="img-fluid" />
-        </div>
-        <div class="divider-mini"></div>
-
-        <div>
-          <h3 class="subheading">Rounded Image</h3>
-
-          <div class="round-img">
-            <img src="./assets/image/responsive.png" alt="" class="round-img" />
+            <img src="./assets/image/responsive.png" class="img-responsive" />
           </div>
         </div>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522.%252Fassets%252Fimage%252Fresponsive.png%2522%2520class%253D%2522img-fluid%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522.%252Fassets%252Fimage%252Fresponsive.png%2522%2520alt%253D%2522%2522%2520class%253D%2522round-img%2522%2520%252F%253E%250A"
-          style="width: 646px; height: 222px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
-        </iframe>
+        src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%253E%250A%2509%2509%2520%253Cimg%2520src%253D%2522%2523%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%253C%252Fdiv%253E"
+        style="width: 546px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+        <div class="divider-mini"></div>
+
+        <h3 class="subheading">Rounded Image</h3>
+        <div>
+<div class="component-example">
+
+  <div class="round-image-wrapper">
+    <img src="./assets/card/itc.jpg" alt="" class="round-img" />
+  </div>
+          </div>
+        </div>
+
+
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%253Cdiv%2520class%253D%2522round-image-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520class%253D%2522round-img%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E"
+        style="width: 563px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
       </div>
       <!-- End Image -->
       <div class="divider"></div>
@@ -578,27 +660,30 @@
         <h2 class="heading mt-1">Modal</h2>
         <p class="content">When we want user to read the message properly then we can use it . It is also usefull when
           we want to prevent unnecessary clicks on buttons </p>
-        <section class="component-example component-model  ">
-          <div class="wrapper">
-            <a href="#modalbox" class="subheading ">Click to Open Modal Box</a>
-          </div>
-          <div id="modalbox" class="modal">
-            <div class="modal-content">
-              <h6 class="subheading">Modal using css</h6>
-              <p class="content">Lorem ipsum dolor sit amet.</p>
-              <p> sit amet consectetur adipisicing elit. Eius natus, eveniet molestiae minima molestias accusantium
-                ratione non debitis provident!</p>
+        <section class="component-example  ">
+          <div class="model-wrapper">
+            <div>
 
-              <a href="#Modal" class="modal-close">
-                <i class="fa-solid fa-xmark"></i></a>
+              <a href="#modalbox" class="subheading ">Click to Open Modal Box</a>
+            </div>
+            <div id="modalbox" class="modal">
+              <div class="modal-content">
+                <h6 class="subheading">Modal using css</h6>
+                <p class="content">Lorem ipsum dolor sit amet.</p>
+                <p> sit amet consectetur adipisicing elit. Eius natus, eveniet molestiae minima molestias accusantium
+                  ratione non debitis provident!</p>
+
+                <a href="#Modal" class="modal-close">
+                  <i class="fa-solid fa-xmark"></i></a>
+              </div>
             </div>
           </div>
         </section>
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Csection%2520class%253D%2522component-model%2520%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523modalbox%2522%2520class%253D%2522subheading%2520%2522%253EClick%2520to%2520Open%2520Modal%2520Box%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522modalbox%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522subheading%2522%253EModal%2520using%2520css%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522content%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Eius%2520natus%252C%2520eveniet%2520molestiae%2520minima%2520molestias%2520accusantium%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ratione%2520non%2520debitis%2520provident%21%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523Modal%2522%2520class%253D%2522modal-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-xmark%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
-          style="width: 1022px; height: 447px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
-        </iframe>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522model-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523modalbox%2522%2520class%253D%2522subheading%2520%2522%253EClick%2520to%2520Open%2520Modal%2520Box%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522modalbox%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522subheading%2522%253Eheading%2520using%2520css%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522content%2522%253Esubtille.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520content%2520%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523Modal%2522%2520class%253D%2522modal-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-xmark%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 833px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
       </div>
       <!--End Modal  -->
       <div class="divider"></div>
@@ -712,31 +797,34 @@
       <!-- Toast -->
       <div id="Toast">
         <h2 class="heading">Toast</h2>
-        <h3 class="subheading">3 sec toast</h3>
-        <section class="component-example toast ">
-          <button class=" btn-danger" onclick="myFunction()">Toast</button>
+        <h3 class="subheading">2 sec toast</h3>
+        <section class="component-example  ">
+          <div class="toast">
 
-          <div id="snackbar">will disappear in 3 second </div>
+            <button class=" btn btn-danger" onclick="myFunction()">Toast</button>
+            
+            <div id="snackbar">will disappear in 2 second </div>
+          </div>
         </section>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522component-example%2520toast%2520%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522%2520btn-danger%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520onclick%253D%2522myFunction%28%29%2522%253EToast%253C%252Fbutton%253E%250A%250A%2520%2520%2520%253Cdiv%2520id%253D%2522snackbar%2522%253Ewill%2520disappear%2520in%25203%2520second%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
-          style="width: 590px; height: 274px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
-        </iframe>
+        src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520btn%2520btn-danger%2522%2520onclick%253D%2522myFunction%28%29%2522%253EToast%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cdiv%2520id%253D%2522snackbar%2522%253Ewill%2520disappear%2520in%25202%2520second%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+        style="width: 480px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
       </div>
       <!-- End Toast -->
       <div class="divider"></div>
       <!-- Utilities -->
       <div id="Utilities">
         <h2 class="heading">Text Utilities</h2>
-        <h2 class="subheading">Headings</h2>
+        <h2 class="subheading">Heading tag coustomize</h2>
         <section class="component-example">
           <h1 class="heading">main heading</h1>
-          <h2 class="subheading">main heading</h2>
-          <h3 class="content">main heading</h3>
-          <h4>main heading</h4>
-          <h5>main heading</h5>
-          <h6>main heading</h6>
+          <h2 class="subheading">subheading</h2>
+          <h3 class="text-center content">subheading heading</h3>
+          <h4>normal heading</h4>
+          <h5>noraml heading</h5>
+          <h6>noraml heading</h6>
         </section>
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522heading%2522%253Emain%2520heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522subheading%2522%253Emain%2520heading%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522content%2522%253Emain%2520heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253Emain%2520heading%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Emain%2520heading%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253Ch6%253Emain%2520heading%253C%252Fh6%253E"
@@ -748,16 +836,16 @@
 
         <h2 class="subheading">Text size</h2>
         <div class="component-example">
-          <p class="text-xxl">Lorem, ipsum dolor.</p>
           <p class="text-sm">Lorem, ipsum dolor.</p>
           <p class="text-md">Lorem, ipsum dolor.</p>
           <p class="text-lg">Lorem, ipsum dolor.</p>
+          <p class="text-xlg">Lorem, ipsum dolor.</p>
         </div>
         <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C100%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-xxl%2522%253ELorem%252C%2520ipsum%2520dolor.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-sm%2522%253ELorem%252C%2520ipsum%2520dolor.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-md%2522%253ELorem%252C%2520ipsum%2520dolor.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-lg%2522%253ELorem%252C%2520ipsum%2520dolor.%253C%252Fp%253E"
-          style="width: 446px; height: 239px; border:0; transform: scale(1); overflow:hidden;"
-          sandbox="allow-scripts allow-same-origin" loading="lazy">
-        </iframe>
+        src="https://carbon.now.sh/embed?bg=rgba%2880%2C219%2C180%2C1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-sm%2522%253ELorem%252C%2520ipsum%2520dolor.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-md%2522%253ELorem%252C%2520ipsum%2520dolor.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-lg%2522%253ELorem%252C%2520ipsum%2520dolor.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-xlg%2522%253ELorem%252C%2520ipsum%2520dolor.%253C%252Fp%253E"
+        style="width: 513px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
         <div class="divider"></div>
 
         <h2 class="subheading">Text alignment</h2>
@@ -794,9 +882,8 @@
       </div>
       <!-- End Utilities -->
       <div class="divider"></div>
-
-      <!-- end components -->
-  </div>
+    </section>
+    <!-- end components -->
   </div>
   <!-- Javascript Code -->
   <script src="./javascript/alert.js"></script>

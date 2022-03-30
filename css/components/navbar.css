@@ -11,29 +11,19 @@
 .nav-classic-right {
   margin-left: auto;
 }
-.nav-btn {
-  background-color: red;
-  padding: 1rem 1.2rem;
-  background-color: greenyellow;
-  font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 1rem;
-  border: none;
-}
+
 /*  effect */
 
 .nav-classic-left > a:hover {
-  color: #e21717;
-  background-color: #02b290;
-  padding: 0.8rem;
+  color: #E21717;
   border-radius: 1rem;
   transition: all 1s;
+  font-weight: 900;
 }
 
 .nav-classic-right > a:hover {
-  color: #e21717;
-  background-color: #02b290;
-  padding: 0.8rem;
+  font-weight: 900;
+  color: #E21717;
   border-radius: 1rem;
   transition: all 1s;
 }

@@ -1,33 +1,53 @@
 @import "./var.css";
-
+body {
+  background-color: #f3f3f2;
+}
 .side-navbar {
   margin-top: 10vh;
   max-width: 25vw;
-  background-color: #46b2e0;
+  background-color: #242b2e;
   height: 100vh;
   overflow: scroll;
   position: fixed;
   margin-right: 1rem;
 }
 .side-navbar li a {
+  margin: 1rem;
   display: inline-block;
   padding: 1rem;
   font-size: 1.5rem;
-  box-shadow: 0 10px 10px rgba(235, 25, 110, 1) !important;
+  box-shadow: 0 1px 0px grey;
+  color: #50dbb4;
+  font-weight: 600;
+  font-family: monospace;
 }
+
 .side-navbar li a:hover {
   background-color: var(--color-space);
-  color: var(--color-danger);
+  color: var(--color-info);
+  /* box-shadow: 0 1px 2px rgba(235, 25, 110, 1); */
+
   padding: 1.3rem;
 }
 .docs-area {
   display: flex;
 }
-
 .nav-fixed {
   position: fixed;
   width: 100%;
   z-index: 999;
+}
+.core-heading {
+  margin: 1rem;
+  color: #00D84A;
+  text-shadow: 1px 1px 1px green;
+
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+}
+.core-heading-span {
+  color: green;
 }
 .component-area {
   margin-left: 24vw;

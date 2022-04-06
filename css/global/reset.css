@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+  background-color: #38cc77;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #e83a59;
+  border-radius: 6px;
+  height: 40vh;
+}
+body {
+  text-rendering: optimizeSpeed;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style-type: none;
+}
+
+button,
+a,
+label {
+  cursor: pointer;
+}
+

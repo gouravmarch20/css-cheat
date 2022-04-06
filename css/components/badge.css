@@ -3,48 +3,45 @@
   margin-top: 1rem;
 }
 
-/* badge status  */
-
 .badge-status {
   position: absolute;
   bottom: 0.1rem;
   width: 10px;
   height: 10px;
   border-radius: 1rem;
+  top: 66px;
+  left: 65px;
+  padding: 0.5rem;
 }
 
 .badge-offline {
-  z-index: 1;
-  top: 66px;
-  left: 65px;
   background-color: var(--color-space);
-  padding: 0.5rem;
 }
 .badge-online {
-  position: absolute;
   background-color: var(--color-sucess);
-  bottom: 15px;
-  left: 70px;
-  padding: 7px;
-  padding: 0.5rem;
+}
+.badge-ideal {
+  background-color: red;
 }
 /* Badge on icon  */
+
 .badge-icon {
-  font-weight: bold;
-  padding: 0.1rem 0.3rem;
-  border: 0.1rem solid black;
-  border-radius: 0.5rem;
-  left: 1.6rem;
+  position: relative;
+
+  margin: 1rem;
 }
-.badge-sucess {
+.badge-icon-text {
+  background-color: red;
   position: absolute;
-  background-color: var(--color-sucess);
-  left: 43px;
-  top: 10px;
+  border-radius: 1rem;
+  padding: 3px 2px;
+  left: 1.8rem;
+  font-weight: 700;
 }
-.badge-danger {
-  position: absolute;
-  background-color: #e83a59;
-  left: 40px;
-  top: 10px;
+.badge-icon-sucess {
+  color: greenyellow;
+}
+.badge-icon-info {
+  color: pink;
+  font-family: "Helvetica Neue", Helvetica;
 }

@@ -1,15 +1,14 @@
-.img-fluid {
+.img-responsive {
   width: 80%;
-  margin: 1rem 3rem;
+  margin: 1rem 2rem;
   border-radius: 0.5rem;
   object-position: center;
   object-fit: cover;
 }
-
 .round-img {
-  border-radius: 50%;
-  height: 300px;
+  margin-left: 1rem;
   object-fit: cover;
-  width: 80%;
-  margin: 1rem 3rem;
+  max-width: 40%;
+  border-radius: 50%;
 }
+

@@ -20,11 +20,11 @@
 
 /* grey shades  */
 .text-grey-100 {
-  color: #C5C5C5;
+  color: #c5c5c5;
   font-weight: 600;
 }
 .text-grey-200 {
-  color: #AEAEAE;
+  color: #aeaeae;
   font-weight: 600;
 }
 .text-grey-300 {
@@ -44,21 +44,28 @@
   font-weight: 600;
 }
 .text-grey-700 {
-  color: #3B3B3B;
+  color: #3b3b3b;
   font-weight: 600;
 }
 
-
 /* text color  */
-.text-danger{
+.text-danger {
   color: var(--color-danger);
   font-weight: 600;
+}
+.text-info{
+  color: var(--color-info);
+  font-weight: 600;
+
 
 }
 
 .text-green {
   color: var(--color-text-green);
   font-weight: 600;
+}
+.color-text-neon {
+  color: var(--color-neon);
 
 }
 .text-blue-subheading {
@@ -67,17 +74,13 @@
 .color-fancy {
   color: var(--color-fancy);
   font-weight: 600;
-
 }
-
-
 
 /* background  */
 
-.bg-light{
-  background-color: #CAD5E2;
+.bg-light {
+  background-color: #cad5e2;
 }
-
 
 /* hover  */
 .color-fancy:hover {

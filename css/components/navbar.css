@@ -15,7 +15,7 @@
 /*  effect */
 
 .nav-classic-left > a:hover {
-  color: #E21717;
+  color: #e21717;
   border-radius: 1rem;
   transition: all 1s;
   font-weight: 900;
@@ -23,7 +23,116 @@
 
 .nav-classic-right > a:hover {
   font-weight: 900;
-  color: #E21717;
+  color: #e21717;
   border-radius: 1rem;
   transition: all 1s;
+}
+
+/* trending & responsive navbar */
+.component-example-coutom {
+  height: 70vh;
+  width: 100%;
+}
+.trend-nav-header {
+  padding: 0 3rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5da3fa;
+  width: 80%;
+}
+.trend-nav-logo {
+  height: 3rem;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.navbar-link:link,
+.navbar-link:visited {
+  display: inline-block;
+  /* underline remove  */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: black;
+  transition: all 0.4s;
+}
+.navbar-link:hover,
+.navbar-link:active {
+  color: red;
+}
+
+/* mobile  responsive code logic */
+.mobile-navbar-btn {
+  display: none;
+  background-color: transparent;
+}
+.mobile-nav-icon {
+  width: 3rem;
+  height: 3rem;
+}
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+/* meadia query  */
+@media (max-width: 62em) {
+  .mobile-navbar-btn {
+    display: block;
+    z-index: 999;
+    border: 3px solid grey;
+  }
+  .trend-nav-header {
+    position: relative;
+  }
+  .trend-nav-navbar {
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(10%);
+    transition: all 0.5 linear;
+    /* hide form user  */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 33;
+  }
+  .navbar-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .trend-nav-logo {
+    height: 10vh;
+  }
+  /* if active class present : then only */
+  .active .trend-nav-navbar {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+    display: block;
+  }
+  .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+    display: none;
+  }
+}
+/* below 560px */
+@media (max-width: 35em) {
+  .trend-nav-header {
+    padding: 2.4rem;
+  }
+  .trend-nav-header .trend-nav-logo {
+    width: 60%;
+  }
 }

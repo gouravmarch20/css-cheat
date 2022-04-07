@@ -1,12 +1,18 @@
+.toast-section {
+  min-height: 20vh;
+}
+
 .toast {
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  
 }
 
 #snackbar {
   visibility: hidden;
-  background-color: #E5D68A;
+  background-color: #e5d68a;
   border-radius: 1px;
   padding: 1rem;
   position: absolute;

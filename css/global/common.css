@@ -71,8 +71,8 @@
 
 .component-example {
   margin: 1rem;
-  border: dotted 1px blue;
-  box-shadow: 4px 3px 3px rgba(25, 34, 29, 0.4);
+  border: solid 2px #242B2E ;
+  box-shadow: 4px 5px 8px #758283;
 }
 /* text property */
 .text-center {

@@ -9,9 +9,9 @@
   padding: 1rem;
   border: solid 1px var(--color-text-subheading);
   box-shadow: 0px 1px 2px grey;
-  margin: 2rem auto;
   background-color: white;
 }
+
 /* common use in card */
 .card-title {
   font-weight: bolder;
@@ -34,7 +34,6 @@
   color: var(--color-text-content);
   font-family: monospace;
   width: 80%;
-  margin: 0 auto;
 }
 .card-price {
   font-weight: 700;
@@ -43,10 +42,11 @@
   font-size: 1.3rem;
 }
 .card-price-mrp {
-  color: grey;
+  color: red;
 }
 .card-disount {
   color: orange;
+  font-weight: 700;
 }
 .card-image {
   border-radius: 1rem;
@@ -123,14 +123,13 @@
   right: 5px;
 
   background-color: var(--color-danger);
-  padding: .7rem 0.4rem;
+  padding: 0.7rem 0.4rem;
 }
 /* card shadow  */
 .card-shadow {
   width: 300px;
   background-color: #0d0d0d;
   box-shadow: 6px 11px 12px rgb(70, 65, 67);
-  margin: 2rem auto;
   border-radius: 1rem;
 }
 
@@ -140,10 +139,9 @@
 /* Card horizontal alignment*/
 .card-horizontal {
   display: flex;
-  width: 350px;
   box-shadow: 0 0px 2px rgb(252, 17, 111);
   margin: 1rem;
-  margin: 0 auto;
+  width: 80%;
 }
 
 .card-horizontal-title {
@@ -152,26 +150,49 @@
   color: blue;
 }
 .card-image-horizontal {
-  max-width: 30vw;
-  max-height: 15vh;
+  margin-top: 1rem;
+  max-height: 24vh;
+  min-width: 30vh;
+  object-fit: contain;
 }
 
 .card-horizontal-content {
-  display: flex;
-  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-family: monospace;
+  width: 80%;
+}
+.card-horizontal-title {
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+.card-horizontal-pricing-detail {
+  color: green;
+  margin: 0.5rem 0rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.card-horizontal-button {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
+
 .card-horizontal-btn {
   margin: 0.3rem 0.3rem;
   border: 2px solid silver;
-}
-.card-horizontal-share {
+  padding: 0.3rem 0.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
+}
+.card-horizontal-btn-share {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.3rem 0.4rem;
+  background-color: grey;
 }
 /* hover  */
 .card:hover,

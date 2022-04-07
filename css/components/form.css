@@ -39,6 +39,8 @@
   padding: 1rem;
   margin-top: 1rem;
   margin-left: 2rem;
+  border: red 1px solid;
+
 }
 .input-err-msg {
   color: red;
